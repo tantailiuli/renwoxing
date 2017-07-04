@@ -1,0 +1,55 @@
+*,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family:'Microsoft YaHei', Arial,Tahoma, Helvetica, sans-serif;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: 0;
+}
+a,
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+input,
+button{
+	outline: none;
+}
+.w1230{
+	width: 1230px;
+	margin: 0 auto;
+}
+.m1230{
+	min-width: 1230px;
+}
+.allfixwindowschoose{
+	float: right;
+	width: 180px;
+	height: 40px;
+	box-sizing:content-box;
+	overflow: hidden;
+}
+.allfixwindowschoose input[type="submit"],
+.allfixwindowschoose span{
+	float: left;
+	width: 80px;
+	margin: 0 5px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+.allfixwindowschoose input[type="submit"]{
+	background-color: #22ac38;
+	color: #fff;
+	border:1px solid #22ac38;
+}
+.allfixwindowschoose span{
+	background-color: #f1f1f1;
+}

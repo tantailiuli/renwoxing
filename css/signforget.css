@@ -1,0 +1,135 @@
+.signforgetbox{
+	background-color: #fff;
+}
+.signforgetbox .signforget header{
+	padding: 20px 130px;
+	font-size: 16px;
+	color: #666;
+	border-bottom: 1px solid #aaa;
+}
+.signforgetbox .signforget form{
+	padding: 20px 130px 50px;
+	border-bottom: 1px solid #aaa;
+	overflow: hidden;
+}
+.signforgetbox .signforget form .left{
+	float: left;
+	width: 700px;
+	overflow: hidden;
+}
+.signforgetbox .signforget form .left .form-group{
+	margin: 25px 0 0;
+	float: left;
+	width: 100%;
+}
+.signforgetbox .signforget form .left .form-group div{
+	float: left;
+	width:420px;
+	height: 33px;
+}
+.signforgetbox .signforget form .left .form-group small{
+	float: left;
+	margin-right: 5px;
+}
+.signforgetbox .signforget form .left .form-group div label{
+	width: 90px;
+	float: left;
+	height: 33px;
+	font-weight: normal;
+	line-height: 33px;
+	color: #666;
+	text-align: right;
+}
+.signforgetbox .signforget form .left .form-group div input{
+	float: left;
+	width: 330px;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	box-shadow: 0 0 0 0 transparent;
+}
+.has-feedback div .form-control-feedback{
+	top: 0;
+	left: 390px;
+}
+.has-feedback.phonema div .form-control-feedback{
+	left: 270px;
+}
+.has-error i.form-control-feedback{
+	color: #f11616;
+}
+.has-success i.form-control-feedback{
+	color: #22ac38;
+}
+.signforgetbox .signforget form .left .form-group div input:focus {
+    border-color: #66afe9;
+}
+.signforgetbox .signforget form .left .form-group.has-success div input:focus {
+    border-color: #22ac38;
+}
+.signforgetbox .signforget form .left .form-group.has-error div input:focus{
+    border-color: #f11616;
+}
+.signforgetbox .signforget form .left .form-group .help-block{
+	color: #f11616;
+}
+.signforgetbox .signforget form .left .form-group div input.w215{
+	width: 215px;
+}
+.signforgetbox .signforget form .left .form-group div .getmobilema{
+	float: right;
+	width: 115px;
+	height: 33px;
+	background-color: #22ac38;
+	color: #fff;
+	line-height: 33px;
+	text-align: center;
+	border-radius: 5px;
+}
+.signforgetbox .signforget form .left button{
+	float: left;
+	margin: 44px 0 0 90px;
+	width: 140px;
+	height: 34px;
+	background-color: #22ac38;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	line-height: 34px;
+	text-align: center;
+}
+.signforgetbox .signforget form .left button[disabled]{
+	cursor: not-allowed;
+	background-color: #74bd7f;
+}
+.signforgetbox .signforget form .right{
+	float: right;
+	margin-top: 18px;
+	width: 270px;
+	height: 290px;
+	border-left: 1px solid #ddd;
+}
+.signforgetbox .signforget form .right p{
+	float: left;
+	margin: 22px 0 16px 31px;
+	color: #666;
+}
+.signforgetbox .signforget form .right a{
+	float: left;
+	margin: 7px 48px;
+	width: 134px;
+	height: 34px;
+	line-height: 34px;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	background-image: url(../images/icon/icon_sign.png);
+	background-repeat: no-repeat;
+}
+.signforgetbox .signforget form .right a.a1{
+	background-position: 18px 6px;
+}
+.signforgetbox .signforget form .right a.a2{
+	background-position: 18px -30px;
+}

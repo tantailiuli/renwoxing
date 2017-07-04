@@ -1,0 +1,409 @@
+.topadvertise{
+	display: block;
+	height: 100px;
+	background: url(../images/img/topadvertise.png) no-repeat center;
+}
+.topbar_box{
+	background-color: #f2f2f2;
+	height: 30px;
+	line-height: 30px;
+}
+.topbar_box.topbarfix{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+.topbar_box .topbar{
+	overflow: hidden;
+}
+.topbar_box .topbar p{
+	float: left;
+}
+.topbar_box .topbar div{
+	float: right;
+}
+.topbar_box .topbar div a{
+	float: right;
+	color: #a4a4a4;
+	margin-left: 36px;
+}
+.topbar_box .topbar div a:hover{
+	color: #22ac38;
+}
+.topbar_box .topbar div a.a1{
+	color: #22ac38;
+}
+.topbar_box .topbar div a.a2 i{
+	float: left;
+	width: 21px;
+	height: 30px;
+	background: url(../images/icon/icon_index.png) no-repeat 0 9px;
+}
+.topbar_box .topbar div a.a2 span{
+	color: #22ac38;
+}
+.topbar_box .topbar div a.a3 i{
+	float: left;
+	width: 19px;
+	height: 30px;
+	background: url(../images/icon/icon_index.png) no-repeat -36px 7px;
+}
+.topbar_box .topbar div a.a6{
+	margin-left: 20px;
+}
+.search_box{
+	padding: 30px 0 16px;
+	position: relative;
+	z-index: 99;
+	background-color: #fff;
+}
+.search_box .search .logo{
+	float: left;
+	margin: 9px 0 0;
+}
+.search_box.searchfix{
+	position: fixed;
+	padding: 0;
+	top: 30px;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	border-bottom: 1px solid #ddd;
+}
+.search_box .search .area{
+	float: left;
+	margin: 16px 40px;
+	width: 98px;
+	height: 36px;
+	line-height: 34px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+.search_box .search .area p.p{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.search_box .search .area p.p span{
+	float: left;
+	width: 74px;
+	font-size: 16px;
+	text-align: center;
+}
+.search_box .search .area p.p i{
+	float: right;
+	width: 22px;
+	height: 100%;
+	background: url(../images/icon/icon_index.png) no-repeat -70px 15px;
+}
+.search_box .search .right{
+	float: right;
+	width: 850px;
+	margin-top: 14px;
+}
+.search_box .search .right form{
+	float: left;
+	width: 670px;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 40px;
+}
+.search_box .search .right form .type{
+	position: relative;
+	float: left;
+	width: 94px;
+	height: 40px;
+	border-top: 2px solid #22ac38;
+	border-left: 2px solid #22ac38;
+	border-bottom: 2px solid #22ac38;
+	border-radius: 5px 0 0 5px;
+}
+.search_box .search .right form .type p{
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: 38px;
+	cursor: pointer;
+	z-index: 2;
+}
+.search_box .search .right form .type p span{
+	width: 60px;
+	float: left;
+	color: #22ac38;
+	line-height: 36px;
+	text-align: right;
+}
+.search_box .search .right form .type p i{
+	float: right;
+	border-right: 1px solid #eee;
+	width: 29px;
+	height: 36px;
+	background: url(../images/icon/icon_index.png) no-repeat -95px 15px;
+}
+.search_box .search .right form .type.border{
+	border-radius: 5px 0 0 0;
+}
+.search_box .search .right form .type.border p{
+	border-bottom: 2px solid #fff;
+}
+.search_box .search .right form .type.border p i{
+	border-right: 1px solid #fff;
+}
+.search_box .search .right form .type div{
+	position: absolute;
+	top: 36px;
+	left: -2px;
+	width: 96px;
+	border: 2px solid #22ac38;
+	border-radius: 0 0 5px 5px;
+	overflow: hidden;
+	z-index: 1;
+	display: none;
+}
+.search_box .search .right form .type div span{
+	float: left;
+	width: 96px;
+	height: 30px;
+	padding-left: 18px;
+	line-height: 30px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.search_box .search .right form .type div span:hover{
+	background-color: #eee;
+}
+.search_box .search .right form .ipt{
+	float: right;
+	width: 576px;
+	height: 40px;
+}
+.search_box .search .right form .ipt input[type="text"]{
+	border-left: 0;
+	border-right: 0;
+	border-top: 2px solid #22ac38;
+	border-bottom: 2px solid #22ac38;
+	height: 40px;
+	line-height: 36px;
+	float: left;
+	padding: 0 15px;
+	width: 458px;
+}
+.search_box .search .right form .ipt input[type="submit"]{
+	width: 116px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 36px;
+	border: 2px solid #22ac38;
+	float: left;
+	background-color: #22ac38;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+.search_box .search .right form .ipt input[type="submit"]:hover{
+	background-color: #179500;
+	border:1px solid #179500;
+}
+.search_box .search .right .other{
+	float: left;
+	width: 175px;
+	height: 40px;
+}
+.search_box .search .right .other span.span{
+	float: left;
+	width: 55px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #a4a4a4;
+}
+.search_box .search .right .other div{
+	float: right;
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #22ac38;
+	line-height: 40px;
+	text-align: center;
+}
+.search_box .search .right .other div:hover{
+	background-color: #179500;
+}
+.search_box .search .right .other div a{
+	float: left;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+}
+.search_box .search .right .hot{
+	float: left;
+	margin: 10px 0 0 20px;
+	width: 550px;
+}
+.search_box.searchfix .search .right .hot{
+	display: none;
+}
+.search_box .search .right .hot a{
+	float: left;
+	color: #a4a4a4;
+}
+.search_box .search .right .hot span.span1{
+	color: #22ac38;
+	margin: 0;
+}
+.search_box .search .right .hot span{
+	float: left;
+	color: #a4a4a4;
+	margin: 0 12px;
+}
+.search_box .search .right .hot a:hover{
+	color: #22ac38;
+}
+.nav_box{
+	position: relative;
+	z-index: 10;
+	background-color: #22ac38;
+	height: 40px;
+}
+.nav_box.navmt{
+	margin-top: 100px;
+}
+.nav_box .nav{
+	height: 100%;
+}
+.nav_box .nav .sec_nav{
+	position: relative;
+	width: 200px;
+	float: left;
+	z-index: 9;
+}
+.nav_box .nav .sec_nav .top{
+	width: 100%;
+	height: 40px;
+	cursor: pointer;
+	/*background-color: #179500;*/
+}
+.nav_box .nav .sec_nav .top i{
+	float: left;
+	margin: 13px 12px 0 37px;
+	width: 21px;
+	height: 16px;
+	background: url(../images/icon/icon_index.png) no-repeat -134px 0px;
+}
+.nav_box .nav .sec_nav .top span{
+	float: left;
+	color: #fff;
+	height: 40px;
+	font-size: 22px;
+	line-height: 40px;
+}
+.nav_box .nav .sec_nav .down{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40px;
+	height: 500px;
+}
+.nav_box .nav .sec_nav .down .shadow,
+.nav_box .nav .sec_nav .down ul.sec_ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.nav_box .nav .sec_nav .down .shadow{
+	z-index: 1;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul{
+	padding: 1px 0 2px;
+	z-index: 2;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li{
+	width: 100%;
+	float: left;
+	font-size: 22px;
+	height: 71px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li:last-child{
+	height: 74px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li:hover p{
+	background-color: #fff;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li:hover p span{
+	color: #22ac38;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i{
+	float: left;
+	margin: 22px 9px 0 35px;
+	width: 26px;
+	height: 26px;
+	background-image: url(../images/icon/icon_index.png);
+	background-repeat: no-repeat;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i1{
+	background-position: 2px -36px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i2{
+	background-position: -43px -36px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i3{
+	background-position: -88px -36px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i4{
+	background-position: -133px -34px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i5{
+	background-position: -176px -34px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i6{
+	background-position: -220px -34px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p i.i7{
+	background-position: -264px -34px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li p.p span{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li .cnt{
+	position: absolute;
+	top: 0;
+	left: 200px;
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+	display: none;
+}
+.nav_box .nav .sec_nav .down ul.sec_ul li:hover .cnt{
+	display: block;
+}
+.nav_box .nav .fir_nav{
+	float: left;
+	width: 1030px;
+}
+.nav_box .nav .fir_nav a{
+	width: 206px;
+	float: left;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+}
+.nav_box .nav .fir_nav a:hover,
+.nav_box .nav .fir_nav a.active{
+	background-color: #179500;
+}

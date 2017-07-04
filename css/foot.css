@@ -1,0 +1,62 @@
+.footer_box{
+	background-color: #22ac38;
+	height: 255px;
+	padding: 28px 0;
+}
+.footer_box .footer .href{
+	width: 768px;
+	margin: 0 auto;
+}
+.footer_box .footer .href a{
+	color: #fff;
+}
+.footer_box .footer .href span{
+	margin: 0 25px;
+	color: #fff;
+}
+.footer_box .footer .href a:hover{
+	text-decoration: underline;
+}
+.footer_box .footer .img{
+	width: 199px;
+	height: 52px;
+	margin: 25px auto;
+	background: url(../images/img/footlogo.png) no-repeat center;
+}
+.footer_box .footer address{
+	margin: 0 auto;
+	width: 440px;
+	height: 30px;
+	line-height: 30px;
+}
+.footer_box .footer address p{
+	float: left;
+	color: #fff;
+}
+.footer_box .footer address p.p1{
+	font-size: 18px;
+	margin-right: 5px;
+}
+.footer_box .footer address p.p2{
+	font-size: 16px;
+	margin-left: 30px;
+}
+.footer_box .footer address p.p2 span{
+	float: left;
+	margin-left: 5px;
+	color: #fff;
+}
+.footer_box .footer address p.p2 i{
+	float: left;
+	width: 28px;
+	height: 30px;
+	background: url(../images/icon/icon_index.png) no-repeat 0 -72px;
+}
+.footer_box .footer address p.p3 i{
+	background: url(../images/icon/icon_index.png) no-repeat -40px -78px;
+}
+.footer_box .footer .copy{
+	margin-top: 30px;
+	color: #fff;
+	text-align: center;
+}

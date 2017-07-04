@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <title>认我行需求页</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/share.css" />
+  <link rel="stylesheet" href="css/topnav.css" />
+  <link rel="stylesheet" href="css/requirement.css" />
+  <link rel="stylesheet" href="css/foot.css" />
+
+
+    <style>
+        .page{
+            float: left;
+        }
+        .pageMenu li::selection{background:transparent;}
+        .clearfix{zoom:1;}
+        .clearfix:after{content:"";display: block;clear: both;}
+        .hide{display: none;}
+        .notContent{padding: 15px 0;text-align: center;}
+
+        .page{text-align: center;width: 100%;margin: 0 auto;}
+        .pageMenu{display: inline-block;width: 75%;margin: 20px auto 10px;}
+        
+        .pageMenu li{border: solid thin #ddd;margin: 3px;float: left;padding: 5px 10px;cursor: pointer;background: #fff;}
+        .pageMenu li.disabled{ background-color: #DDDDDD;   cursor: not-allowed;}
+        .pageMenu li.active{ border: solid thin #0099FF;background-color: #0099FF;color: white;}
+        .pageMenu li.last{background: transparent;border:0;position: relative;top: -4px;}
+        .page .keuInput{padding: 0 5px;width: 100px;border: solid thin #ddd;height: 29px;outline: none;text-align: center;font-size: 16px;}
+        .page .btnSure{padding: 3px 8px;border:1px solid #ddd;outline: none;text-align: center;background: #fff;position: relative;top: -1px;}
+        .page .btnSure:hover{cursor: pointer;}
+    </style>
+
+
+</head>
+<body>
+  <a id="topadvertise" class="topadvertise m1230" href=""></a>
+  <div id="topbar" class="topbar_box m1230">
+    <div class="topbar w1230">
+      <p>认我行，认证检测企业服务平台</p>
+      <div>
+        <a class="a5" href="">我是服务商</a>
+        <a class="a4" href="">我是买家</a>
+        <a class="a3" href=""><i></i>我的订单</a>
+        <a class="a2" href=""><i></i>消息<span>54</span></a>
+        <a class="a1 hidden" href="">高山流水</a>
+        <a class="a6" href="signup.html">注册</a>
+        <a class="a6 a1" href="signin.html">登录</a>
+      </div>
+    </div>
+  </div>
+  <header id="header" class="search_box m1230">
+    <div class="search clearfix w1230">
+      <a class="logo" href="index.html"><img src="./images/img/logo.png" alt=""></a>
+      <div class="area">
+        <p class="p"><span>全国</span><i></i></p>
+      </div>
+      <div class="right">
+        <form action="">
+          <div class="type" id="typeselect">
+            <p><span>找服务</span><i></i></p>    
+            <div>
+                  <span>找服务</span>
+                  <span>找服务商</span>
+                  <span>找需求</span>
+                  <span>找案例</span>
+                  <span>地图搜索</span>
+               </div>
+              <input name="" type="hidden" value="" />
+          </div>
+          <div class="ipt">
+            <input type="text">
+            <input type="submit" value="搜索">
+          </div>
+        </form>
+        <div class="other">
+          <span class="span">或</span>
+          <div>
+            <a href="">免费发需求</a>
+          </div>
+        </div>
+        <div class="hot">
+          <span class="span1">热门搜索：</span>
+          <a href="">ISO 9001</a>
+          <span>|</span>
+          <a href="">CMMI认证</a>
+          <span>|</span>
+          <a href="">ISO 9001</a>
+          <span>|</span>
+          <a href="">CMMI认证</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav id="firstnav" class="nav_box m1230">
+        <div class="nav w1230">
+            <div class="sec_nav">
+                <div class="top"><i></i><span>全部分类</span></div>
+                <div class="down">
+                    <div class="shadow"></div>
+                    <ul class="sec_ul">
+                        <li>
+                            <p class="p"><i class="i1"></i><span>认证服务</span></p>
+                            <div class="cnt">认证服的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i2"></i><span>检测服务</span></p>
+                            <div class="cnt">检测服的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i3"></i><span>资质许可</span></p>
+                            <div class="cnt">资质许的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i4"></i><span>验厂服务</span></p>
+                            <div class="cnt">验厂服的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i5"></i><span>培训服务</span></p>
+                            <div class="cnt">培训服的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i6"></i><span>计量检定</span></p>
+                            <div class="cnt">计量检的内容</div>
+                        </li>
+                        <li>
+                            <p class="p"><i class="i7"></i><span>环评服务</span></p>
+                            <div class="cnt">环评服的内容</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fir_nav">
+                <a href="index.html">首页</a>
+                <a href="">服务商库</a>
+                <a class="active" href="requirement.html">需求大厅</a>
+                <a href="">品牌服务商</a>
+                <a href="help.html">帮助</a>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="require_box m1230">
+        <div class="require w1230">
+            <div class="sel_box">
+                <div class="sel sel1">
+                    <span class="span1">需求大厅&gt;</span>
+                    <select id="selProvince1">
+                      <option value="0">--服务类型--</option>
+                    </select>
+                    <span>&gt;</span>
+                    <select id="selCity1">
+                      <option value="0">--认证类型--</option>
+                    </select>
+                    <span>&gt;</span>
+                    <select id="selDistrict1">
+                      <option value="0">--具体认证--</option>
+                    </select>
+                </div>
+                <div class="sel sel2">
+                    <span class="span1">需求时间：</span>
+                    <ul>
+                        <li class="active"><a href="">全部</a></li>
+                        <li><a href="">今日发布</a></li>
+                        <li><a href="">近三天发布</a></li>
+                        <li><a href="">近一周发布</a></li>
+                        <li><a href="">近半月发布</a></li>
+                        <li><a href="">近一个月发布</a></li>
+                    </ul>
+                </div>
+                <div class="sel sel3">
+                    <span class="span1">所在地区：</span>
+                    <select id="selProvince2">
+                      <option value="0">--请选择省--</option>
+                    </select>
+                    <span>&gt;</span>
+                    <select id="selCity2">
+                      <option value="0">--请选择市--</option>
+                    </select>
+                    <span>&gt;</span>
+                    <select id="selDistrict2">
+                      <option value="0">--请选择区--</option>
+                    </select>
+                </div>
+            </div>
+            <div class="cnt_box clearfix pageBox">
+                <ul class="cnt pageDiv clearfix"></ul>
+                <div class="notContent hide"></div>
+                <div class="page">
+                    <ul class="pageMenu clearfix">
+                        <li class="firstPage">首页</li>
+                        <li class="prevPage"> < 上一页 </li>
+                        <div class="pageObj ">
+                            
+                        </div>
+                        <li class="nextPage"> 下一页 > </li>
+                        <li class="lastPage">尾页</li>
+                        <li class="last">
+                            共<span class="totalPage"></span>页，跳转至 <input type="number"class="keuInput" value="1">
+                            <button type="button" class="btnSure">确定</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+
+    <footer class="footer_box m1230">
+    <div class="footer w1230">
+      <div class="href">
+        <a href="">关于我们</a>
+        <span>|</span>
+        <a href="">联系方式</a>
+        <span>|</span>
+        <a href="">媒体报道</a>
+        <span>|</span>
+        <a href="">广告合作</a>
+        <span>|</span>
+        <a href="">网站地图</a>
+        <span>|</span>
+        <a href="">友情链接</a>
+        <span>|</span>
+        <a href="">网站帮助</a>
+      </div>
+      <div class="img"></div>
+      <address>
+        <p class="p1">联系我们</p>
+        <p class="p2"><i></i><span>100@51rwx.cn</span></p>
+        <p class="p2 p3"><i></i><span>0571-88390110</span></p>
+      </address>
+      <p class="copy">&copy;2017 51rwx.com 版权所有 渝ICP备10202274-4号</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/topnav.js"></script>
+  <script src="js/threetogether.js"></script>
+  <script src="js/ajaxpage.js"></script>
+    <script>
+        $(function(){
+            $(".pageBox").pageFun({  /*在本地服务器上才能访问哦*/
+                interFace:"data/page.json",  /*接口*/
+                displayCount:10,  /*每页显示总条数*/
+                maxPage:5,/*每次最多加载多少页*/
+                dataFun:function(data){
+                    var dataHtml = "<li><div class=\"left\"><h3>"+data.need+"</h3><p>"+data.hope+"</p></div><p class=\"p\"><span>"+data.people+"</span>人参与 | 招标</p><a href=\"requirementdetails.html\">我要投标</a></li>";
+                        return dataHtml;
+                },
+                pageFun:function(i){
+                    var pageHtml = '<li class="pageNum">'+i+'</li>';
+                        return pageHtml;
+                }
+
+            })
+        })
+    </script>
+</body>
+</html>

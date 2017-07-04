@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+  	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  	<meta name="keywords" content="" />
+  	<meta name="description" content="" />
+  	<title>认我行注册页</title>
+  	<link rel="stylesheet" href="css/bootstrap.css" />
+  	<link rel="stylesheet" href="css/share.css" />
+  	<link rel="stylesheet" href="css/signshare.css" />
+  	<link rel="stylesheet" href="css/bootstrapValidator.min.css" />
+</head>
+<body>
+	<div class="sign_box m1230">
+		<div class="sign w1230">
+			<a href="index.html"><img src="./images/img/logo.png" alt=""></a>
+			<form action="" method="post" id="register-form-signup">
+				<header>用户注册</header>
+	            <div class="form-group clearfix">
+	           		<div>
+	            		<label for="username">手机号：</label>
+	                	<input type="tel" class="form-control" name="userName" id="userName" placeholder="请输入手机号" required>
+	                </div>
+	            </div>
+	            <div class="form-group clearfix phonema">
+	            	<div>
+	            		<label for="">手机验证码：</label>
+	               	 	<input type="txt" class="form-control w360" name="" id="" placeholder="请输入验证码" required>
+	                	<a class="getmobilema" href="">获取验证码</a>
+	                </div>
+	            </div>
+	            <div class="form-group clearfix">
+	            	<div>
+		            	<label for="password">密码：</label>
+		                <input type="password" class="form-control" name="password" id="password" placeholder="请输入密码">
+		            </div>
+	            </div>
+	            <div class="form-group clearfix">
+	           		<div>
+		            	<label for="repassword">确认密码：</label>
+		                <input type="password" class="form-control" name="repassword" id="repassword" placeholder="再次确认密码">
+	            	</div>
+	            </div>
+	           <div class="form-group clearfix bottom">
+	           		<div class="div1">
+		            	<label>其他服务</label>
+		                <a href="signforget.html">找回密码</a>
+		                <a href="signin.html" class="a2">登录</a>
+	            	</div>
+	            	<div class="div2">
+		            	<label>身份选择</label>
+		            	<p>
+		            		<i></i>
+		            		<span class="span1">买家</span><span class="span2">服务商</span>
+		            	</p>
+	            	</div>
+	            </div>
+				<div class="submit">
+	            	<button type="submit">注册</button>
+					<input type="checkbox" id="checkbox" checked="checked"><p><span>我已阅读并同意</span><a href="">《认我行交易条款》</a></p>
+				</div>
+	        </form>
+		</div>
+	</div>
+	
+  	<script src="js/jquery-1.9.1.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrapValidator.min.js"></script>
+	<script src="js/sign.js"></script>
+
+</body>
+</html>

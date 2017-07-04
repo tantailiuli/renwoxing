@@ -1,0 +1,203 @@
+#myCarousel{
+	position: relative;
+	height: 500px;
+	background: url(../images/img/mainbanner01.png) no-repeat center;
+}
+#myCarousel .carousel-inner{
+	height: 100%;
+}
+#myCarousel .carousel-inner .item{
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.carousel-indicators{
+	z-index: 1;
+}
+.carousel-indicators li{
+	border:1px solid #22ac38;
+}
+.carousel-indicators li.active{
+	background-color: #22ac38;
+}
+.banneradver{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 50%;
+	padding: 1px 0;
+	margin-right: -615px;
+	width: 242px;
+	z-index: 1;
+}
+.banneradver .adv{
+	float: left;
+	margin: 8px 0;
+	height: 150px;
+	width: 100%;
+	padding:0 30px;
+	background-color: #fff;
+}
+.banneradver .adv h3{
+	font-size: 16px;
+	margin: 10px 0 0;
+}
+.banneradver .adv p{
+	position: relative;
+	font-size: 14px;
+	margin: 8px 0;
+	color: #666;
+}
+.banneradver .adv p:after{
+	position: absolute;
+	content: "";
+	top: 25px;
+	left: 0;
+	width: 30px;
+	height: 4px;
+	background-color: #f60;
+}
+.banneradver .adv img{
+	float: right;
+}
+.content_box{
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+.content_box .content .list{
+	width: 100%;
+}
+.content_box .content .list .img{
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin: 30px 0;
+}
+.content_box .content .list .cnt{
+	float: left;
+	width: 100%;
+}
+.content_box .content .list .cnt img{
+	float: left;
+}
+.content_box .content .list .cnt .ul_box{
+	float: right;
+	width: 979px;
+}
+.content_box .content .list .cnt .ul_box .ulsel,
+.content_box .content .list .cnt .ul_box .ulcnt{
+	float: left;
+	width: 100%;
+}
+.content_box .content .list .cnt .ul_box .ulsel li{
+	float: left;
+	margin-right: 56px;
+	padding-bottom: 8px;
+	cursor: pointer;
+}
+.content_box .content .list .cnt .ul_box .ulsel li.active{
+	color: #22ac38;
+	border-bottom: 2px solid #22ac38;
+}
+.content_box .content .list .cnt .ul_box .ulcnt li{
+	width: 100%;
+	display: none;
+}
+.content_box .content .list .cnt .ul_box .ulcnt{
+	margin-top: 11px;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt,
+.content_box .content .list.list3 .cnt .ul_box .ulcnt{
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt li{
+	overflow: hidden;
+	height: 288px;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt li a{
+	float: left;
+	width: 163px;
+	height: 144px;
+	line-height: 144px;
+	color: #666;
+	text-align: center;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt li a:hover{
+	color: #22ac38;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt li a span.span1{
+	width: 100%;
+	float: left;
+	font-size: 26px;
+	margin: 42px 0 28px;
+	line-height: 26px;
+	color: #22ac38;
+	text-align: center;
+}
+.content_box .content .list.list1 .cnt .ul_box .ulcnt li a span.span2{
+	width: 100%;
+	float: left;
+	color: #333;
+	text-align: center;
+	vertical-align: center;
+	line-height: 20px;
+}
+.content_box .content .list .cnt .ul_box .ulcnt li.block{
+	display: block;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li{
+	overflow: hidden;
+	height: 178px;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li p{
+	width: 50%;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	cursor: pointer;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li p span{
+	float: left;
+	color: #666;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li p i{
+	width: 2px;
+	height: 10px;
+	float: left;
+	margin:13px 10px;
+	background-color: #a4a4a4;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li p a{
+	float: left;
+	width: 350px;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content_box .content .list.list2 .cnt .ul_box .ulcnt li p:hover a{
+	color: #22ac38;
+}
+.content_box .content .list.list .cnt .ul_box .ulcnt li{
+	height: 288px;
+	overflow: hidden;
+}
+.content_box .content .list.list3 .cnt .ul_box .ulcnt li img,
+.content_box .content .list.list3 .cnt .ul_box .ulcnt li a{
+	float: left;
+	width: 163px;
+	height: 96px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.content_box .content .list.list3 .cnt .ul_box .ulcnt li a{
+	color: #666;
+	text-align: center;
+	line-height: 96px;
+}
+.content_box .content .list.list3 .cnt .ul_box .ulcnt li a:hover{
+	color: #22ac38;
+}

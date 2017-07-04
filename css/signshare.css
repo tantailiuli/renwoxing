@@ -1,0 +1,218 @@
+body{
+	background-color: #f5f5f5;
+}
+.sign_box{
+	padding: 75px 0;
+	overflow: hidden;
+}
+.sign_box .sign a{
+	float: left;
+}
+.sign_box .sign form{
+	width: 580px;
+	padding-left: 22px;
+	float: right;
+}
+.sign_box .sign form header{
+	font-size: 60px;
+	height: 60px;
+	line-height: 60px;
+}
+.sign_box .sign form .form-group{
+	width: 507px;
+	margin: 0;
+}
+.sign_box .sign form .form-group div{
+	float: left;
+	width: 100%;
+}
+.sign_box .sign form .form-group div label{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	color: #666;
+	font-weight: normal;
+	margin: 40px 0 15px;
+}
+.sign_box .sign form .form-group div input{
+	float: left;
+	width: 100%;
+	height: 60px;
+	border-color: #f5f5f5;
+	box-shadow: 0 4px 8px 0px #ddd;
+}
+.has-feedback div .form-control-feedback{
+	top: 90px;
+}
+.has-feedback.phonema div .form-control-feedback{
+	right: 152px;
+}
+.has-error .form-control-feedback{
+	color: #f11616;
+}
+.has-success .form-control-feedback{
+	color: #22ac38;
+}
+.sign_box .sign form .form-group .help-block{
+	color: #f11616;
+}
+.sign_box .sign form .form-group div input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.sign_box .sign form .form-group.has-success div input:focus {
+    border-color: #22ac38;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+}
+.sign_box .sign form .form-group.has-error div input:focus{
+    border-color: #f11616;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+.sign_box .sign form .form-group div input.w360{
+	width: 360px;
+}
+.sign_box .sign form .form-group div .getmobilema{
+	float: right;
+	width: 117px;
+	height: 60px;
+	border-radius: 5px;
+	line-height: 60px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #22ac38;
+	color: #fff;
+}
+.sign_box .sign form .form-group small{
+	float: left;
+	width: 100%;
+	margin: 2px 0 0;
+}
+.sign_box .sign form .form-group.bottom div.div1{
+	width: 267px;
+}
+.sign_box .sign form .form-group.bottom div.div1 a{
+	float: left;
+	border-radius: 5px;
+	padding: 21px 35px;
+	margin-right: 14px;
+	font-size: 18px;
+	color: #666;
+	line-height: 18px;
+	transition: all 0.2s;
+	background-color: #eae6e0;
+}
+.sign_box .sign form .form-group.bottom div.div1 a.a2{
+	color: #22ac38;
+	margin-right: 0;
+}
+.sign_box .sign form .form-group.bottom div.div1 a:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+.sign_box .sign form .form-group.bottom div.div2{
+	width: 216px;
+	float: right;
+}
+.sign_box .sign form .form-group.bottom div.div2 p{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #eae6e0;
+}
+.sign_box .sign form .form-group.bottom div.div2 p i{
+	position: absolute;
+	left: 0;
+	width: 120px;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 30px;
+	transition: left 0.5s;
+}
+.sign_box .sign form .form-group.bottom div.div2 p i.right{
+	left: 96px;
+}
+.sign_box .sign form .form-group.bottom div.div2 p span{
+	position: absolute;
+	top: 0;
+	width: 50%;
+	text-align: center;
+	bottom: 0;
+	cursor: pointer;
+	line-height: 60px;
+}
+.sign_box .sign form .form-group.bottom div.div2 p span.span1{
+	left: 8px;
+}
+.sign_box .sign form .form-group.bottom div.div2 p span.span2{
+	right: 8px;
+}
+.sign_box .sign form .submit{
+	width: 100%;
+	float: left;
+	margin-top: 55px;
+	height: 54px;
+}
+.sign_box .sign form .submit button{
+	float: left;
+	width: 170px;
+	height: 54px;
+	border-radius: 27px;
+	border: 0;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+}
+.sign_box .sign form .submit button[disabled]{
+	cursor: not-allowed;
+	background-color: #74bd7f;
+}
+.sign_box .sign form .submit input[type="checkbox"]{
+	margin:14px 10px 0 48px;
+	float: left;
+	width: 26px;
+	height: 26px;
+	font-size: 16px;
+	background-color: #fff;
+	border-radius: 3px;
+	line-height: 26px;
+	text-align:center;
+	-webkit-appearance:none;
+	border:2px solid #22ac38;
+	font-family:Verdana;
+	outline:none;
+	transition:all 0.1s;
+	cursor: pointer;
+}
+.sign_box .sign form .submit input[type="checkbox"]:checked{
+	background-color:#22ac38;
+	color:white;
+	border:0;
+}
+.sign_box .sign form .submit input[type="checkbox"]:after{
+	font-weight:bold;
+}
+.sign_box .sign form .submit input[type="checkbox"]:checked:after{
+	content:"√";
+}
+.sign_box .sign form .submit p{
+	float: left;
+	line-height: 54px;
+	font-size: 18px;
+}
+.sign_box .sign form .submit p span{
+	float: left;
+}
+.sign_box .sign form .submit p a{
+	color: #22ac38;
+}
+.sign_box .sign form .submit p a:hover{
+	text-decoration: underline;
+}

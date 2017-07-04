@@ -1,0 +1,263 @@
+.helpnav_box{
+	background-color: #22ac38;
+	height: 40px;
+}
+.helpnav_box .helpnav{
+	overflow: hidden;
+}
+.helpnav_box .helpnav a{
+	width: 172px;
+	float: left;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	background-color: #22ac38;
+}
+.helpnav_box .helpnav a:hover,
+.helpnav_box .helpnav a.active{
+	background-color: #179500;
+}
+.helpmain_box{
+	background-color: #f5f5f5;
+}
+.helpmain_box .helpmain{
+	padding: 40px 0 60px;
+	overflow: hidden;
+}
+.helpmain_box .helpmain .select{
+	width: 240px;
+	float: left;
+	border: 1px solid #eee;
+}
+.helpmain_box .helpmain .select header{
+	float: left;
+	width: 100%;
+	background-color: #22ac38;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+}
+.helpmain_box .helpmain .select header i{
+	float: left;
+	margin: 0 17px 0 33px;
+	width: 26px;
+	height: 50px;
+	background:url(../images/icon/icon_help.png) no-repeat 0 18px;
+}
+.helpmain_box .helpmain .select ul.ulsel{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 30px;
+	background-color: #fff;
+}
+.helpmain_box .helpmain .select ul.ulsel li{
+	float: left;
+	width: 100%;
+}
+.helpmain_box .helpmain .select ul.ulsel li div{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+.helpmain_box .helpmain .select ul.ulsel li div i.i1{
+	float: left;
+	margin: 0 20px 0 0;
+	width: 26px;
+	height: 50px;
+	background:url(../images/icon/icon_help.png) no-repeat -36px 16px;
+}
+.helpmain_box .helpmain .select ul.ulsel li div i.i2{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 26px;
+	height: 30px;
+	transition: transform 0.3s;
+	-ms-transition: transform 0.3s;
+	-o-transition: transform 0.3s;
+	-moz-transition: transform 0.3s;
+	-webkit-transition: transform 0.3s;
+	background:url(../images/icon/icon_help.png) no-repeat -36px -30px;
+}
+.helpmain_box .helpmain .select ul.ulsel li.curr div i.i2{
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+.helpmain_box .helpmain .select ul.ulsel li div i.i3{
+	background:url(../images/icon/icon_help.png) no-repeat 6px -18px;
+}
+.helpmain_box .helpmain .select ul.ulsel li ul{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+.helpmain_box .helpmain .select ul.ulsel li:first-child ul{
+	display: block;
+}
+.helpmain_box .helpmain .select ul.ulsel li ul li{
+	float: left;
+	width: 100%;
+	padding-left: 47px;
+	height: 50px;
+	border-bottom: 1px solid #ddd;
+	line-height: 50px;
+}
+.helpmain_box .helpmain .select ul.ulsel li ul li a{
+	color: #666;
+}
+.helpmain_box .helpmain .select ul.ulsel li ul li a:hover{
+	color: #22ac38;
+}
+.helpmain_box .helpmain .helpcnt{
+	float: right;
+	width: 970px;
+}
+.helpmain_box .helpmain .helpcnt .search{
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding: 25px 0;
+}
+.helpmain_box .helpmain .helpcnt .search img{
+	float: left;
+	width: 86px;
+	height: 80px;
+	margin: 0 64px 0 66px;
+}
+.helpmain_box .helpmain .helpcnt .search form{
+	width: 682px;
+	float: left;
+}
+.helpmain_box .helpmain .helpcnt .search form input[type="text"]{
+	width: 540px;
+	height: 40px;
+	border: 2px solid #22ac38;
+	line-height: 40px;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+.helpmain_box .helpmain .helpcnt .search form input[type="text"]::-webkit-input-placeholder { 
+　　color:#a4a4a4;
+　}
+.helpmain_box .helpmain .helpcnt .search form input[type="text"]:-moz-placeholder {
+　　color:#a4a4a4;
+　}
+.helpmain_box .helpmain .helpcnt .search form input[type="text"]::-moz-placeholder {
+　　color:#a4a4a4;
+　}
+.helpmain_box .helpmain .helpcnt .search form input[type="text"]:-ms-input-placeholder {
+　　color:#a4a4a4;
+}
+.helpmain_box .helpmain .helpcnt .search form button[type="submit"]{
+	width: 122px;
+	height: 40px;
+	float: right;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	border: 0;
+	border-radius: 5px;
+	line-height: 40px;
+}
+.helpmain_box .helpmain .helpcnt .search form p{
+	float: left;
+	margin: 23px 0 0 23px;
+}
+.helpmain_box .helpmain .helpcnt .search form p a{
+	float: left;
+	color: #a4a4a4;
+}
+.helpmain_box .helpmain .helpcnt .search form p span{
+	color: #a4a4a4;
+	float: left;
+	margin: 0 15px;
+}
+.helpmain_box .helpmain .helpcnt .search form p span.span1{
+	margin:0 5px 0 0;
+	color: #22ac38;
+}
+.helpmain_box .helpmain .helpcnt .search form p a:hover{
+	color: #22ac38;
+}
+.helpmain_box .helpmain .helpcnt .result{
+	float: left;
+	width: 100%;
+	padding: 8px 30px;
+	background-color: #fff;
+}
+.helpmain_box .helpmain .helpcnt .result .head{
+	float: left;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+}
+.helpmain_box .helpmain .helpcnt .result .head.center{
+	text-align: center;
+	font-size: 22px;
+}
+.helpmain_box .helpmain .helpcnt .result ul{
+	float: left;
+	width: 100%;
+}
+.helpmain_box .helpmain .helpcnt .result ul li{
+	position: relative;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	padding-left: 12px;
+}
+.helpmain_box .helpmain .helpcnt .result ul.ul1 li{
+	width: 33.3333%;
+}
+.helpmain_box .helpmain .helpcnt .result ul.ul2 li{
+	width: 100%;
+}
+.helpmain_box .helpmain .helpcnt .result ul li i{
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 4px;
+	height: 4px;
+	background-color: #666;
+	border-radius: 50%;
+}
+.helpmain_box .helpmain .helpcnt .result ul li:hover i{
+	background-color: #22ac38;
+}
+.helpmain_box .helpmain .helpcnt .result ul li:hover a{
+	color: #22ac38;
+}
+.helpmain_box .helpmain .helpcnt .result ul li a{
+	color: #666;
+}
+.helpmain_box .helpmain .helpcnt .result div.cnt{
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+}
+.helpmain_box .helpmain .helpcnt .result div.cnt h3{
+	font-size: 18px;
+	float: left;
+	width: 100%;
+	line-height: 30px;
+	font-weight: bold;
+}
+.helpmain_box .helpmain .helpcnt .result div.cnt p{
+	line-height: 28px;
+	text-indent: 28px;
+}
