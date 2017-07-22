@@ -1,0 +1,298 @@
+.providerbackstagenav_box{
+	background-color: #22ac38;
+	height: 40px;
+}
+.providerbackstagenav .title{
+	text-align: center;
+	float: left;
+	width: 230px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 22px;
+	background-color: #179500;
+}
+.providerbackstagenav .nav{
+	width: 1000px;
+	height: 40px;
+	float: right;
+}
+.providerbackstagenav .nav a{
+	position: relative;
+	width: 16.66666666%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+}
+/*.providerbackstagenav .nav a.active:after{
+	position: absolute;
+	content: "";
+	left: 77px;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left:6px solid transparent;
+	border-right:6px solid transparent;
+	border-bottom: 7px solid #fff;
+}*/
+.providerbackstage_box{
+	background-color: #fff;
+	padding-bottom: 108px;
+}
+.providerbackstage .person{
+	width: 230px;
+	float: left;
+}
+.providerbackstage .person .up{
+	float: left;
+	width: 100%;
+	padding:19px 19px 0;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+}
+.providerbackstage .person .up img{
+	float: left;
+	width: 190px;
+	height: 190px;
+}
+.providerbackstage .person .up p.p1{
+	float: left;
+	margin-top: 10px;
+}
+.providerbackstage .person .up p.p1 span.span1{
+	float: left;
+	font-size: 16px;
+	line-height: 18px;
+	margin-right: 10px;
+}
+.providerbackstage .person .up p.p2{
+	float: left;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	color: #22ac38;
+	border-bottom: 1px dashed #ddd;
+}
+.providerbackstage .person .up p.p2 span{
+	color: #22ac38;
+}
+.providerbackstage .person .up p.p3{
+	float: left;
+	width: 100%;
+	height: 16px;
+	margin: 20px 0 10px;
+	line-height: 16px;
+}
+.providerbackstage .person .up p.p3 i{
+	float: left;
+	width: 22px;
+	height: 16px;
+	background: url(../images/icon/icon_provider02.png) no-repeat 0 0;
+}
+.providerbackstage .person .up p.p3 span.span1{
+	margin: 0 5px 0 10px;
+}
+.providerbackstage .person .up p.p3 span.span1 a{
+	color: #666;
+}
+.providerbackstage .person .up p.p3 span.span1 a:hover{
+	color: #22ac38;
+}
+.providerbackstage .person .up p.p3 span.span2{
+	color: #f60;
+}
+.providerbackstage .person .up p.p4{
+	float: left;
+	width: 100%;
+	margin:12px 0;
+}
+.providerbackstage .person .up p.p4 i{
+	width: 24px;
+	height: 50px;
+	float: left;
+	margin-right: 8px;
+	background: url(../images/icon/icon_provider02.png) no-repeat -50px 12px;
+}
+.providerbackstage .person .up p.p4 .span{
+	float: left;
+	width: 150px;
+	height: 100%;
+}
+.providerbackstage .person .up p.p4 .span a{
+	color: #666;
+}
+.providerbackstage .person .up p.p4 .span a:hover{
+	color: #22ac38;
+}
+.providerbackstage .person .up p.p4 .span span{
+	float: left;
+	width: 100%;
+	height: 50%;
+	color: #666;
+	line-height: 25px;
+}
+.providerbackstage .person .down{
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+}
+.providerbackstage .person .down .nav{
+	float: left;
+	width: 100%;
+}
+.providerbackstage .person .down .nav .head{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 30px;
+	padding-left: 20px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	background-color: #22ac38;
+	cursor: pointer;
+}
+.providerbackstage .person .down .nav .head i{
+	position: absolute;
+	top: 7px;
+	right: 19px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon/icon_provider02.png) no-repeat -103px 0;
+}
+.providerbackstage .person .down .nav .head.cur i{
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+.providerbackstage .person .down .nav ul{
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	background-color: #f9f9f9;
+}
+.providerbackstage .person .down .nav ul li{
+	float: left;
+	width: 100%;
+	height: 34px;
+	padding-left: 40px;
+	line-height: 34px;
+}
+.providerbackstage .person .down .nav ul li a{
+	color: #666;
+}
+.providerbackstage .person .down .nav ul li a:hover{
+	color: #22ac38;
+}
+
+.providerbackstage .message{
+	width: 960px;
+	float: right;
+	margin-top: 30px;
+}
+.providerbackstage .message .titlesign{
+	float: left;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 24px;
+}
+.providerbackstage .message .titlesign i{
+	width: 4px;
+	height: 20px;
+	float: left;
+	margin: 5px 10px 0 0;
+	background-color: #22ac38;
+}
+.providerbackstage .message .titlesign span{
+	float: left;
+	line-height: 30px;
+	font-size: 24px;
+	color: #22ac38;
+}
+.providerbackstage .message .table{
+	width: 100%;
+	float: left;
+	margin-bottom: 40px;
+}
+.providerbackstage .message .table h3{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 35px;
+	padding:0 21px;
+	background-color: #22ac38;
+	color: #fff;
+	font-size: 16px;
+	line-height: 35px;
+}
+.providerbackstage .message .table h3 i{
+	position: absolute;
+	left: 11px;
+	top: 10px;
+	width: 4px;
+	height: 15px;
+	display: block;
+	background-color: #fff;
+}
+.providerbackstage .message .table h3 a{
+	float: right;
+	color: #fff;
+}
+.providerbackstage .message .table h3 a:hover{
+	text-decoration: underline;
+}
+.providerbackstage .message .table table{
+	width: 100%;
+	float: left;
+}
+.providerbackstage .message .table table tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.providerbackstage .message .table table tr th{
+	background-color: #90d59b;
+	padding:8px 0 8px 20px;
+	height: 19px;
+	line-height: 19px;
+}
+.providerbackstage .message .table.tw5 table tr th:nth-child(1){
+	width: 237px;
+}
+.providerbackstage .message .table.tw5 table tr th:nth-child(2){
+	width: 225px;
+}
+.providerbackstage .message .table.tw5 table tr th:nth-child(3){
+	width: 190px;
+}
+.providerbackstage .message .table.tw5 table tr th:nth-child(4){
+	width: 170px;
+}
+.providerbackstage .message .table.tw6 table tr th:nth-child(1){
+	width: 171px;
+}
+.providerbackstage .message .table.tw6 table tr th:nth-child(2){
+	width: 227px;
+}
+.providerbackstage .message .table.tw6 table tr th:nth-child(3){
+	width: 194px;
+}
+.providerbackstage .message .table.tw6 table tr th:nth-child(4){
+	width: 122px;
+}
+.providerbackstage .message .table.tw6 table tr th:nth-child(5){
+	width: 110px;
+}
+.providerbackstage .message .table table tr td{
+	height: 42px;
+	padding: 10px 0 10px 20px;
+	line-height: 22px;
+	color: #666;
+}

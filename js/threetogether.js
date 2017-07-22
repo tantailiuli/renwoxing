@@ -41,4 +41,5 @@ $(function(){
     }
     Threetogether("#selProvince1","#selCity1","#selDistrict1",provinceJson1,cityJson1,countyJson1);
     Threetogether("#selProvince2","#selCity2","#selDistrict2",provinceJson2,cityJson2,countyJson2);
+    Threetogether("#selProvince3","#selCity3","#selDistrict3",provinceJson2,cityJson2,countyJson2);
 });

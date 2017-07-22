@@ -1,0 +1,380 @@
+.nav_box .nav .sec_nav .down{
+	display: none;
+}
+.nav_box .nav .sec_nav:hover .down{
+	display: block;
+}
+.providersearch_box{
+	background-color: #fff;
+}
+.providersearch_box .providersearch .leftprovider{
+	width: 948px;
+	float: left;
+}
+.providersearch_box .providersearch .leftprovider .sel_box{
+	float: left;
+	width: 100%;
+	padding: 0 30px;
+	border:1px solid #ccc;
+	margin: 10px 0 20px;
+}
+.providersearch_box .providersearch .leftprovider .sel_box .sel{
+	height: 50px;
+	border-bottom: 1px dashed #ddd;
+	padding: 10px 0;
+}
+.providersearch_box .providersearch .leftprovider .sel_box .sel3{
+	border-bottom: 0;
+}
+.providersearch_box .providersearch .leftprovider .sel_box .sel span{
+	float: left;
+	text-align: center;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.providersearch_box .providersearch .leftprovider .sel_box .sel span.span1{
+	width: 97px;
+	font-weight: bold;
+	color: #666;
+}
+.providersearch_box .providersearch .leftprovider .sel_box .sel select{
+	float: left;
+	height: 30px;
+	border-color: #22ac38;
+	outline: none;
+	color: #666;
+	font-size: 16px;
+	cursor: pointer;
+}
+.providersearch_box .providersearch .leftprovider .cnt{
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	height: 35px;
+	background-color: #f7f7f7;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a{
+	margin: 0 26px;
+	font-size: 16px;
+	color: #333;
+	cursor: pointer;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a,
+.providersearch_box .providersearch .leftprovider .cnt .cntsel span{
+	float: left;
+	line-height: 35px;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a.active{
+	color: #22ac38;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a i{
+	float: right;
+	margin: 10px 6px;
+	width: 8px;
+	height: 16px;
+	background: url(../images/icon/icon_provider01.png) no-repeat 0 -36px;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a.active i{
+	background: url(../images/icon/icon_provider01.png) no-repeat -38px -36px;
+}
+.providersearch_box .providersearch .leftprovider .cnt .cntsel a.reverse i{
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner{
+	padding: 0 20px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dashed #ddd;
+	padding: 20px 0;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .img{
+	width: 120px;
+	float: left;
+	height: 120px;
+	border: 1px solid #ddd;
+	padding: 7px 10px 10px;
+	float: left;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid{
+	width: 380px;
+	float: left;
+	margin-left: 10px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid h3{
+	height: 22px;
+	line-height: 22px;
+	margin:5px 0 15px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid h3 span:first-child{
+	font-size: 20px;
+	float: left;
+	width: 300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #0b73bb;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid h3 span:nth-child(2){
+	font-size: 14px;
+	color: #666;
+	margin: 0 5px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid h3 strong{
+	color: #f60;
+	font-size:18px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid p.p1{
+	float: left;
+	width: 100%;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid p.p1 span:first-child{
+	color: #000;
+	font-size: 14px;
+	margin-right: 20px;
+	float: left;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid p.p1 b{
+	float: left;
+	margin: 2px 0 0 8px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon/icon_provider01.png) no-repeat 0 0;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid p.p1 b.notvip{
+	display: none;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid p.p2{
+	color: #a4a4a4;
+	float: left;
+	margin: 5px 0 8px;
+	width: 100%;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid a.a{
+	float: left;
+	width: 72px;
+	height: 24px;
+	border-radius: 5px;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .mid a.a:hover{
+	background-color: #179500;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price{
+	position: relative;
+	float: right;
+	width: 160px;
+	height: 120px;
+	border: 1px solid #ddd;
+	background: linear-gradient(to bottom,#fff,#f7f7f7);
+	background: -ms-linear-gradient(to bottom,#fff,#f7f7f7);
+	background: -o-linear-gradient(to bottom,#fff,#f7f7f7);
+	background: -webkit-linear-gradient(to bottom,#fff,#f7f7f7);
+	background: -moz-linear-gradient(to bottom,#fff,#f7f7f7);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1{
+	padding: 0 20px;
+	cursor: pointer;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1 h3{
+	float: left;
+	width: 100%;
+	margin: 8px 0;
+	line-height: 18px;
+	font-size: 18px;
+	text-align: center;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1 p.p1{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 12px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1 p.p1 span:first-child{
+	font-size: 14px;
+	margin-right: 5px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1 p.p1 span:last-child{
+	font-size: 22px;
+	font-weight: bold;
+	color: #f60;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div1 p.p2{
+	text-align: center;
+	border-top: 1px dashed #ddd;
+	float: left;
+	padding: 8px 0;
+	width: 100%;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2{
+	position: absolute;
+	top: 2px;
+	right: 158px;
+	width: 220px;
+	height: 116px;
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	padding-left: 16px;
+	display: none;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price:hover .div2{
+	display: block;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .frac{
+	width: 110px;
+	float: left;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp{
+	width: 90px;
+	float: left;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .frac p,
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p{
+	line-height: 22px;
+	color: #a4a4a4;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .frac p span,
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p span{
+	color: #a4a4a4;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .frac p:first-child,
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p:first-child{
+	margin: 18px 0 12px;
+	line-height: 14px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p i{
+	width: 8px;
+	height: 18px;
+	margin-right: 5px;
+	float: left;
+	background-image: url(../images/icon/icon_provider01.png);
+	background-repeat: no-repeat;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p.higher i{
+	background-position: -38px -67px;
+}
+.providersearch_box .providersearch .leftprovider .cnt ul.ulinner li .price .div2 .comp p.lower i{
+	background-position: 0px -67px;
+}
+
+.providersearch_box .providersearch .leftprovider .cnt ul.pagination{
+	float: right;
+	margin: 26px;
+}
+.providersearch_box .providersearch .rightprovider{
+	width: 242px;
+	float: right;
+}
+.providersearch_box .providersearch .rightprovider h3.head{
+	float: left;
+	width: 100%;
+	height: 42px;
+	background-color: #22ac38;
+	color: #fff;
+	padding: 0 10px;
+	font-size: 20px;
+	line-height: 42px;
+	margin: 10px 0;
+}
+.providersearch_box .providersearch .rightprovider ul{
+	width: 100%;
+	float: left;
+}
+.providersearch_box .providersearch .rightprovider ul li{
+	width: 100%;
+	float: left;
+	height: 355px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.providersearch_box .providersearch .rightprovider ul li .img{
+	width: 220px;
+	height: 220px;
+	margin: 10px;
+	float: left;
+}
+.providersearch_box .providersearch .rightprovider ul li div{
+	border-top: 1px solid #ddd;
+	width: 100%;
+	padding: 0 10px;
+	float: left;
+}
+.providersearch_box .providersearch .rightprovider ul li div h3{
+	color: #0b73bb;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	line-height: 18px;
+	height: 20px;
+	margin: 8px 0 6px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p1{
+	float: left;
+	width: 100%;
+}
+
+.providersearch_box .providersearch .rightprovider ul li div p.p1 b{
+	float: left;
+	margin: 2px 0 0 8px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon/icon_provider01.png) no-repeat 0 0;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p1 b.notvip{
+	display: none;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p1 span.span2{
+	float: right;
+	font-size: 12px;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p2{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #666;
+	margin: 5px 0;
+	font-size: 12px;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p3{
+	line-height: 30px;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p3 span.span1{
+	font-size: 12px;
+	margin: 0 3px 0 6px;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p3 span.span2{
+	color: #f60;
+	font-weight: bold;
+}
+.providersearch_box .providersearch .rightprovider ul li div p.p3 a{
+	width: 70px;
+	height: 24px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #22ac38;
+	text-align: center;
+	line-height: 24px;
+	float: right;
+}

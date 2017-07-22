@@ -200,7 +200,7 @@ body{
 	font-weight:bold;
 }
 .sign_box .sign form .submit input[type="checkbox"]:checked:after{
-	content:"√";
+	content:"\2713";
 }
 .sign_box .sign form .submit p{
 	float: left;

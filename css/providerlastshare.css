@@ -1,0 +1,253 @@
+/*myreport,myrights*/
+.myreport table{
+	font-size: 16px;
+	float: left;
+	width: 100%;
+}
+.myreport table tbody tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.myreport table tbody tr th{
+	height: 35px;
+	background-color: #22ac38;
+	color: #fff;
+}
+.myreport table tbody tr td{
+	height: 42px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+}
+.myreport table tbody tr th:not(:first-child),
+.myreport table tbody tr td:not(:first-child){
+	padding-left: 20px;
+}
+.myreport table tbody tr th:nth-child(1),
+.myreport table tbody tr td:nth-child(1){
+	width: 80px;
+	text-align: center;
+}
+.myreport table tbody tr td:nth-child(1){
+	border-right: 1px solid #ddd;
+}
+.myreport table tbody tr td:nth-child(1) a{
+	color: #333;
+	text-decoration: underline;
+}
+.myreport table tbody tr td:nth-child(1) a:hover{
+	color: #22ac38;
+}
+.myreport table tbody tr th:nth-child(2),
+.myreport table tbody tr td:nth-child(2){
+	width: 150px;
+}
+.myreport table tbody tr th:nth-child(3),
+.myreport table tbody tr td:nth-child(3){
+	width: 195px;
+}
+.myreport table tbody tr th:nth-child(4),
+.myreport table tbody tr td:nth-child(4){
+	width: 200px;
+}
+.myreport table tbody tr th:nth-child(5),
+.myreport table tbody tr td:nth-child(5){
+	width: 250px;
+}
+.myreport table tbody tr th:nth-child(6),
+.myreport table tbody tr td:nth-child(6){
+	width: 102px;
+}
+/*revenueandexpenditure*/
+.revenueandexpenditure table{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.revenueandexpenditure table tbody tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.revenueandexpenditure table tbody tr th{
+	height: 35px;
+	background-color: #22ac38;
+	color: #fff;
+}
+.revenueandexpenditure table tbody tr td{
+	height: 42px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+}
+.revenueandexpenditure table tbody tr th:not(:first-child),
+.revenueandexpenditure table tbody tr td:not(:first-child){
+	padding-left: 20px;
+}
+.revenueandexpenditure table tbody tr th:nth-child(1),
+.revenueandexpenditure table tbody tr td:nth-child(1){
+	width: 60px;
+	text-align: center;
+}
+.revenueandexpenditure table tbody tr td:nth-child(1){
+	border-right: 1px solid #ddd;
+	color: #333;
+}
+.revenueandexpenditure table tbody tr th:nth-child(2),
+.revenueandexpenditure table tbody tr td:nth-child(2){
+	width: 140px;
+}
+.revenueandexpenditure table tbody tr th:nth-child(3),
+.revenueandexpenditure table tbody tr td:nth-child(3){
+	width: 404px;
+}
+.revenueandexpenditure table tbody tr th:nth-child(4),
+.revenueandexpenditure table tbody tr td:nth-child(4){
+	width: 225px;
+}
+.revenueandexpenditure table tbody tr th:nth-child(5),
+.revenueandexpenditure table tbody tr td:nth-child(5){
+	width: 128px;
+}
+/*refundmanagement*/
+.refundmanagement table{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.refundmanagement table tbody tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.refundmanagement table tbody tr th{
+	height: 35px;
+	background-color: #22ac38;
+	color: #fff;
+	padding-left: 20px;
+}
+.refundmanagement table tbody tr td{
+	height: 42px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	padding-left: 20px;
+}
+.refundmanagement table tbody tr th:nth-child(1),
+.refundmanagement table tbody tr td:nth-child(1){
+	width: 154px;
+}
+.refundmanagement table tbody tr th:nth-child(2),
+.refundmanagement table tbody tr td:nth-child(2){
+	width: 185px;
+}
+.refundmanagement table tbody tr th:nth-child(3),
+.refundmanagement table tbody tr td:nth-child(3){
+	width: 220px;
+}
+.refundmanagement table tbody tr th:nth-child(4),
+.refundmanagement table tbody tr td:nth-child(4){
+	width: 145px;
+}
+.refundmanagement table tbody tr th:nth-child(5),
+.refundmanagement table tbody tr td:nth-child(5){
+	width: 130px;
+}
+.refundmanagement table tbody tr th:nth-child(6),
+.refundmanagement table tbody tr td:nth-child(6){
+	width: 123px;
+}
+/*goodfaithdegree*/
+.goodfaithdegree .head{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+}
+.goodfaithdegree .head p:first-child{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.goodfaithdegree .head p:first-child span{
+	color: #f60;
+}
+.goodfaithdegree .head p:last-child{
+	float: left;
+	width: 100%;
+	background-color: #22ac38;
+	color: #fff;
+	padding: 0 0 0 20px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 30px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.goodfaithdegree table{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.goodfaithdegree table tbody tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.goodfaithdegree table tbody tr.reduce{
+	background-color: #e8f7eb;
+}
+.goodfaithdegree table tbody tr th{
+	height: 35px;
+	background-color: #90d59b;
+	padding-left: 120px;
+}
+.goodfaithdegree table tbody tr td{
+	height: 42px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	padding-left: 120px;
+}
+.goodfaithdegree table tbody tr th:nth-child(1),
+.goodfaithdegree table tbody tr td:nth-child(1){
+	width: 310px;
+}
+.goodfaithdegree table tbody tr th:nth-child(2),
+.goodfaithdegree table tbody tr td:nth-child(2){
+	width: 335px;
+}
+.goodfaithdegree table tbody tr th:nth-child(3),
+.goodfaithdegree table tbody tr td:nth-child(3){
+	width: 312px;
+}
+.goodfaithdegree .detail{
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+	margin-top: 40px;
+}
+.goodfaithdegree .detail h3{
+	width: 100%;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: #22ac38;
+	font-size: 16px;
+	padding-left: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.goodfaithdegree .detail div{
+	padding: 7px 0;
+	width: 100%;
+	float: left;
+}
+.goodfaithdegree .detail div p{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+.goodfaithdegree .detail div p span:first-child{
+	width: 134px;
+	float: left;
+	text-align: right;
+}
+.goodfaithdegree .detail div p span:last-child{
+	width: 824px;
+	float: left;
+}

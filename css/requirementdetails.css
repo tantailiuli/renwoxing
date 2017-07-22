@@ -1,9 +1,9 @@
 .nav_box .nav .sec_nav .down{
 	display: none;
 }
-/*.nav_box .nav .sec_nav:hover .down{
+.nav_box .nav .sec_nav:hover .down{
 	display: block;
-}*/
+}
 
 .reqdetails_box{
 	background-color: #fff;

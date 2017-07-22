@@ -1,9 +1,9 @@
 .nav_box .nav .sec_nav .down{
 	display: none;
 }
-/*.nav_box .nav .sec_nav:hover .down{
+.nav_box .nav .sec_nav:hover .down{
 	display: block;
-}*/
+}
 .require_box{
 	background-color: #fff;
 }
@@ -121,14 +121,4 @@
 .require_box .require .cnt_box ul.pagination{
 	float: right;
 	margin: 54px 0 26px;
-}
-.require_box .require .cnt_box ul.pagination li a{
-	margin: 0 5px;
-	color: #333;
-	border: 1px solid #22ac38;
-}
-.require_box .require .cnt_box ul.pagination li:not(.disabled) a:hover,
-.require_box .require .cnt_box ul.pagination li:not(.disabled) a.active{
-	background-color: #22ac38;
-	color: #fff;
 }

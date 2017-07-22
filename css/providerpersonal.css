@@ -1,0 +1,324 @@
+.providerpersonal{
+	font-size: 16px;
+}
+.providerpersonal .signlabel{
+	width: 100px;
+	float: left;
+	text-align: right;
+}
+.providerpersonal .setting1,
+.providerpersonal .setting1 .p1,
+.providerpersonal .setting1 .imgbox,
+.providerpersonal .setting1 .imgbox p,
+.providerpersonal .setting1 .imgbox div,
+.providerpersonal .setting1 .p2,
+.providerpersonal .setting1 .textarea,
+.providerpersonal .setting1 .p3{
+	float: left;
+	width: 100%;
+}
+.providerpersonal .setting1 .p1{
+	margin: 15px 0;
+	height: 30px;
+	line-height: 30px;
+}
+.providerpersonal .setting1 .p1 input{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 600px;
+	font-weight: bold;
+	border: 0;
+}
+.providerpersonal .setting1 .imgbox p .upload{
+	float: left;
+    position: relative;
+    width: 80px;
+    height: 24px;
+    cursor: pointer;
+    background-color: #22ac38;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px;
+}
+.providerpersonal .setting1 .imgbox p .upload .file{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+}
+.providerpersonal .setting1 .imgbox div{
+	margin-top: 20px;
+}
+.providerpersonal .setting1 .imgbox div img{
+	float: left;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting1 .imgbox div img:nth-child(1){
+	width: 220px;
+	height: 220px;
+	margin-left: 100px;
+}
+.providerpersonal .setting1 .imgbox div img:nth-child(2){
+	width: 190px;
+	height: 190px;
+	margin: 30px 20px 0;
+}
+.providerpersonal .setting1 .imgbox div img:nth-child(3){
+	width: 120px;
+	height: 120px;
+	margin-top: 100px;
+}
+.providerpersonal .setting1 .p2{
+	height: 75px;
+	padding: 25px 0;
+}
+.providerpersonal .setting1 .p2 span{
+	float: left;
+}
+.providerpersonal .setting1 .p2 span.span2{
+	margin-right: 15px;
+}
+.providerpersonal .setting1 .p2 input[type="radio"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 5px;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.providerpersonal .setting1 .p2 input[type="radio"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.providerpersonal .setting1 .textarea textarea{
+	float: left;
+	width: 692px;
+	max-width: 692px;
+	padding: 10px;
+	height: 110px;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting1 .p3,
+.providerpersonal .setting2 .p7,
+.providerpersonal .setting3 .p7{
+	padding:20px 170px 20px 0;
+}
+.providerpersonal .setting1 .p3 input[type="submit"],
+.providerpersonal .setting2 .p7 input[type="submit"],
+.providerpersonal .setting3 .p7 input[type="submit"]{
+	float: right;
+	width: 80px;
+	height: 32px;
+	background-color: #22ac38;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 32px;
+	outline: none;
+	border: 0;
+}
+.providerpersonal .setting2,
+.providerpersonal .setting2 .p,
+.providerpersonal .setting3,
+.providerpersonal .setting3 .p{
+	float: left;
+	width: 100%;
+}
+.providerpersonal .setting2 .p1,
+.providerpersonal .setting2 .p2{
+	height: 24px;
+	line-height: 24px;
+}
+.providerpersonal .setting2 .p2{
+	margin: 20px 0;
+}
+.providerpersonal .setting2 .p1 input,
+.providerpersonal .setting2 .p2 input{
+	font-weight: bold;
+	border: 0;
+}
+.providerpersonal .setting2 .p1 input{
+	width: 126px;
+}
+.providerpersonal .setting2 .p2 input{
+	width: 180px;
+}
+.providerpersonal .setting2 .p1 button,
+.providerpersonal .setting2 .p2 button{
+	width: 80px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #22ac38;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	border: 0;
+}
+.providerpersonal .setting2 .p3 .ipt1{
+	float: left;
+	width: 70px;
+	padding:0 10px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting2 .p3 .ipt2{
+	float: left;
+	width: 150px;
+	padding:0 10px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting2 .p3 .span{
+	float: left;
+	width: 20px;
+	text-align: center;
+}
+.providerpersonal .setting2 .p4{
+	margin: 20px 0;
+}
+.providerpersonal .setting2 .p4 input{
+	width: 244px;
+	height: 30px;
+	padding:0 10px;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting2 .p5 .span{
+	float: left;
+	width: 20px;
+	text-align: center;
+}
+.providerpersonal .setting2 .p5 select{
+	outline: none;
+	height: 30px;
+	float: left;
+	border-color: #ccc;
+}
+.providerpersonal .setting2 .p6{
+	margin-top: 20px;
+}
+.providerpersonal .setting2 .p6 input{
+	float: left;
+	width: 692px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+.providerpersonal .setting3 .p{
+	margin-bottom: 30px;
+}
+.providerpersonal .setting3 .p input{
+	height: 30px;
+	border: 1px solid #ccc;
+	width: 340px;
+	padding: 0 10px;
+}
+.providerpersonal .setting3 .p select{
+	height: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.providerpersonal .setting3 .p.p3 input{
+	width: 692px;
+}
+.providerpersonal .setting3 p.p6{
+	padding-left: 100px;
+}
+.providerpersonal .setting3 p.p6 input[type="checkbox"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	padding: 0;
+	margin: 5px 5px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.providerpersonal .setting3 p.p6 input[type="checkbox"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.providerpersonal .setting3 p.p6,
+.providerpersonal .setting3 p.p7{
+	margin-bottom: 0;
+}
+.providerpersonal table{
+	float: left;
+	width: 790px;
+	margin-top: 50px;
+}
+.providerpersonal table tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.providerpersonal table tr th{
+	padding-left: 13px;
+	background-color: #22ac38;
+	color: #fff;
+	height: 35px;
+}
+.providerpersonal table tr td{
+	padding-left: 13px;
+	height: 42px;
+	border-bottom: 1px solid #ddd;
+}
+.providerpersonal table tr td:first-child{
+	border-right: 1px solid #ddd;
+}
+.providerpersonal table tr th:nth-child(1),
+.providerpersonal table tr td:nth-child(1){
+	width: 176px;
+}
+.providerpersonal table tr th:nth-child(2),
+.providerpersonal table tr td:nth-child(2){
+	width: 100px;
+}
+.providerpersonal table tr th:nth-child(3),
+.providerpersonal table tr td:nth-child(3){
+	width: 260px;
+}
+.providerpersonal table tr th:nth-child(4),
+.providerpersonal table tr td:nth-child(4){
+	width: 120px;
+}
+.providerpersonal table tr th:nth-child(5),
+.providerpersonal table tr td:nth-child(5){
+	width: 131px;
+}
+.providerpersonal table tr th:first-child{
+	padding-left: 45px;
+}
+.providerpersonal table tr td:first-child a{
+	font-size: 12px;
+	color: #a4a4a4;
+	margin: 0 5px;
+}
+.providerpersonal table tr td:first-child a:last-child{
+	color: #333;
+	font-weight: bold;
+}
+.providerpersonal table tr td:first-child a:last-child.undefault{
+	background-color: #22ac38;
+	color: #fff;
+	line-height: 24px;
+	padding: 2px 5px;
+	text-align: center;
+	border-radius: 3px;
+}

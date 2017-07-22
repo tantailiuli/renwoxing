@@ -64,28 +64,39 @@ window.onscroll=function(){
     var top=window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop;
     var node0 = document.getElementById('topadvertise'),
     	node1 = document.getElementById('topbar'),
-    	node2 = document.getElementById('header'),
-    	node3 = document.getElementById('firstnav');
+    	node2 = document.getElementById('header');
     if(node0){
     	if(top>100){
 	        node1 && node1.setAttribute("class","topbar_box m1230 topbarfix");
 	        node2 && node2.setAttribute("class","search_box m1230 searchfix");
-	        node3 && node3.setAttribute("class","nav_box m1230 navmt");
+	        document.body.style.paddingTop="100px";
 	    }else{
 	        node1 && node1.setAttribute("class","topbar_box m1230");
 	        node2 && node2.setAttribute("class","search_box m1230");
-	        node3 && node3.setAttribute("class","nav_box m1230");
+	        document.body.style.paddingTop="0";
 	    }
     }else{
     	if(top>0){
 	        node1 && node1.setAttribute("class","topbar_box m1230 topbarfix");
 	        node2 && node2.setAttribute("class","search_box m1230 searchfix");
-	        node3 && node3.setAttribute("class","nav_box m1230 navmt");
+	        document.body.style.paddingTop="100px";
 	    }else{
 	        node1 && node1.setAttribute("class","topbar_box m1230");
 	        node2 && node2.setAttribute("class","search_box m1230");
-	        node3 && node3.setAttribute("class","nav_box m1230");
+	         document.body.style.paddingTop="0";
 	    }
-    }
-    
+    }  
 }
+//
+var $area = $(".search_box .search .area");
+$area.mouseover(function(){
+	$(this).addClass("cur").find(".citybox").show()
+})
+$area.mouseout(function(){
+	$(this).removeClass("cur").find(".citybox").hide()
+})
+$(".citybox .cityinr .city a",$area).click(function(){
+	$(".citybox .cityinr .city a",$area).removeClass("active")
+	$(this).addClass("active");
+	$("p.p span",$area).html($(this).text()).closest(".area").find(".citybox").hide()
+})

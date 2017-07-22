@@ -1,0 +1,63 @@
+.rating{
+	float: left;
+	width: 40px;
+	height: 18px;
+	position: relative;
+}
+.rating i.i1{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #fff;
+	z-index: 1;
+}
+.rating i.i2{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	z-index: 2;
+	background: url(../images/icon/icon_provider01.png) no-repeat -70px 5px;
+	background-color: #83b615;
+}
+.rating span{
+	width: 26px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	padding-left: 3px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+	background-color: #83b615;
+}
+.rating.rating_1-10 i.i2,
+.rating.rating_1-10 span{
+	background-color: #83b615;
+}
+.rating.rating_11-20 i.i2,
+.rating.rating_11-20 span{
+	background-color: #e09e06;
+}
+.rating.rating_21-30 i.i2,
+.rating.rating_21-30 span{
+	background-color: #e04e06;
+}
+.rating.rating_31-40 i.i2,
+.rating.rating_31-40 span{
+	background-color: #e00667;
+}
+.rating.rating_41-50 i.i2,
+.rating.rating_41-50 span{
+	background-color: #ba06e0;
+}
+.rating.rating_51-60 i.i2,
+.rating.rating_51-60 span{
+	background-color: #7c06e0;
+}

@@ -19,6 +19,9 @@ input,
 button{
 	outline: none;
 }
+textarea:focus{
+	outline-color: #22ac38;
+}
 .w1230{
 	width: 1230px;
 	margin: 0 auto;
@@ -52,4 +55,21 @@ button{
 }
 .allfixwindowschoose span{
 	background-color: #f1f1f1;
+}
+.pagination li a{
+	margin: 0 5px;
+	color: #666;
+	border-color: #22ac38;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #22ac38;
+    border-color: #22ac38;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{
+	background-color: #22ac38;
+	border-color: #22ac38;
+	color: #fff;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+	border-color: #22ac38;
 }

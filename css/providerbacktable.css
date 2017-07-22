@@ -1,0 +1,181 @@
+.tablebox table{
+	float: left;
+	width: 100%;
+}
+.tablebox table tr:not(:first-child){
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.tablebox table tr:first-child{
+	border-left: 1px solid #22ac38;
+	border-right: 1px solid #22ac38;
+}
+.tablebox table tr th{
+	background-color: #22ac38;
+	color: #fff;
+	font-size: 16px;
+	height: 35px;
+}
+.tablebox table tr td{
+	height: 43px;
+	font-size: 16px;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+}
+.tablebox table tr th:nth-child(1),
+.tablebox table tr td:nth-child(1){
+	text-align: center;
+}
+.tablebox table tr td.operation{
+	border-right: 1px solid #ddd;
+}
+.tablebox table tr td .write{
+	color: #a4a4a4;
+	font-size: 12px;
+	cursor: pointer;
+}
+.tablebox table tr td .color{
+	display: inline-block;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 24px;
+	color: #fff;
+	height: 24px;
+	cursor: pointer;
+}
+.tablebox table tr td .color.color-darkgreen{
+	background-color: #22ac38;
+}
+.tablebox table tr td .color.color-orange{
+	background-color: #f60;
+}
+.tablebox .pagination{
+	float: right;
+}
+
+
+
+/*servicemanagement*/
+.tablebox table.table-servicemanagement tr th:nth-child(1),
+.tablebox table.table-servicemanagement tr td:nth-child(1){
+	width: 150px;
+}
+.tablebox table.table-servicemanagement tr th:nth-child(2),
+.tablebox table.table-servicemanagement tr td:nth-child(2){
+	width: 288px;
+	padding-left: 30px;
+}
+.tablebox table.table-servicemanagement tr th:nth-child(3),
+.tablebox table.table-servicemanagement tr td:nth-child(3){
+	width: 167px;
+	padding-left: 30px;
+}
+.tablebox table.table-servicemanagement tr th:nth-child(4),
+.tablebox table.table-servicemanagement tr td:nth-child(4){
+	width: 202px;
+	padding-left: 30px;
+}
+.tablebox table.table-servicemanagement tr th:nth-child(5),
+.tablebox table.table-servicemanagement tr td:nth-child(5){
+	width: 150px;
+	padding-left: 30px;
+}
+.tablebox table.table-servicemanagement tr td .write{
+	margin: 0 10px;
+}
+.tablebox table.table-servicemanagement tr td .color{
+	width: 62px;
+	margin: 0 10px;
+}
+
+/*transactionservice*/
+.tablebox table.table-transactionservice tr th:nth-child(1),
+.tablebox table.table-transactionservice tr td:nth-child(1){
+	width: 120px;
+}
+.tablebox table.table-transactionservice tr th:nth-child(2),
+.tablebox table.table-transactionservice tr td:nth-child(2){
+	width: 170px;
+	padding-left: 30px;
+}
+.tablebox table.table-transactionservice tr th:nth-child(3),
+.tablebox table.table-transactionservice tr td:nth-child(3){
+	width: 150px;
+	padding-left: 30px;
+}
+.tablebox table.table-transactionservice tr th:nth-child(4),
+.tablebox table.table-transactionservice tr td:nth-child(4){
+	width: 192px;
+	padding-left: 30px;
+}
+.tablebox table.table-transactionservice tr th:nth-child(5),
+.tablebox table.table-transactionservice tr td:nth-child(5){
+	width: 175px;
+	padding-left: 30px;
+}
+.tablebox table.table-transactionservice tr th:nth-child(6),
+.tablebox table.table-transactionservice tr td:nth-child(6){
+	width: 150px;
+	padding-left: 30px;
+}
+.tablebox table.table-transactionservice tr td .color{
+	width: 72px;
+}
+
+/*bidrequirement*/
+.tablebox table.table-bidrequirement tr th:nth-child(1),
+.tablebox table.table-bidrequirement tr td:nth-child(1){
+	width: 130px;
+}
+.tablebox table.table-bidrequirement tr th:nth-child(2),
+.tablebox table.table-bidrequirement tr td:nth-child(2){
+	width: 197px;
+	padding-left: 50px;
+}
+.tablebox table.table-bidrequirement tr th:nth-child(3),
+.tablebox table.table-bidrequirement tr td:nth-child(3){
+	width: 278px;
+	padding-left: 30px;
+}
+.tablebox table.table-bidrequirement tr th:nth-child(4),
+.tablebox table.table-bidrequirement tr td:nth-child(4){
+	width: 202px;
+	padding-left: 30px;
+}
+.tablebox table.table-bidrequirement tr th:nth-child(5),
+.tablebox table.table-bidrequirement tr td:nth-child(5){
+	width: 150px;
+	padding-left: 30px;
+}
+.tablebox table.table-bidrequirement tr td .color{
+	width: 62px;
+}
+
+/*joinrequirement*/
+.tablebox table.table-joinrequirement tr th:nth-child(1),
+.tablebox table.table-joinrequirement tr td:nth-child(1){
+	width: 210px;
+	padding-left: 20px;
+	text-align: left;
+}
+.tablebox table.table-joinrequirement tr th:nth-child(2),
+.tablebox table.table-joinrequirement tr td:nth-child(2){
+	width: 225px;
+	padding-left: 30px;
+}
+.tablebox table.table-joinrequirement tr th:nth-child(3),
+.tablebox table.table-joinrequirement tr td:nth-child(3){
+	width: 165px;
+	padding-left: 30px;
+}
+.tablebox table.table-joinrequirement tr th:nth-child(4),
+.tablebox table.table-joinrequirement tr td:nth-child(4){
+	width: 205px;
+	padding-left: 30px;
+}
+.tablebox table.table-joinrequirement tr th:nth-child(5),
+.tablebox table.table-joinrequirement tr td:nth-child(5){
+	width: 152px;
+	padding-left: 30px;
+}

@@ -1,0 +1,235 @@
+table{
+	font-size: 16px;
+}
+/*settingwelcome*/
+.settingwelcome form{
+	width: 790px;
+	float: left;
+}
+.settingwelcome form .title{
+	float: left;
+	width: 110px;
+	font-size: 16px;
+}
+.settingwelcome form textarea{
+	float: left;
+	padding: 10px;
+	width: 680px;
+	max-width: 680px;
+	height: 120px;
+}
+.settingwelcome form div{
+	float: left;
+	padding: 20px 0;
+	width: 100%;
+}
+/*settingshopdata*/
+.settingshopdata .setimg{
+	float: left;
+	width: 788px;
+	margin: 12px 0;
+}
+.settingshopdata .setimg label{
+	float: left;
+	width: 170px;
+	font-weight: normal;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 16px;
+	line-height: 16px;
+}
+.settingshopdata .setimg .text{
+	float: left;
+	width: 510px;
+	height: 50px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+	line-height: 50px;
+}
+.settingshopdata .setimg .upload{
+	float: left;
+	position: relative;
+	width: 80px;
+	height: 24px;
+	cursor: pointer;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 5px;
+	margin: 13px 0 0 18px;
+}
+.settingshopdata .setimg .upload .file{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 24px;
+	opacity: 0;
+	cursor: pointer;
+}
+.settingshopdata .setimg .name{
+	width: 608px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.settingshopdata .setimg textarea{
+	width: 608px;
+	max-width: 608px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	height: 120px;
+}
+/*evaluate*/
+.evaluate .evaluatecnt .select .inr5{
+	width: 140px;
+}
+.evaluate .evaluatecnt ul.content{
+	padding: 0 20px;
+}
+.evaluate .table table tr th,
+.evaluate .table table tr td{
+	padding: 0!important;
+	border-right: 1px solid #ddd;
+	text-align: center;
+}
+.evaluate .table table tr th{
+	height: 35px!important;
+}
+.evaluate .table table tr th:nth-child(1),
+.evaluate .table table tr td:nth-child(1){
+	width: 120px;
+}
+.evaluate .table table tr td:nth-child(1) a{
+	background-color: #22ac38;
+	color: #fff;
+	padding: 2px 5px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+.evaluate .table table tr th:nth-child(2),
+.evaluate .table table tr td:nth-child(2){
+	width: 700px;
+}
+.evaluate .table table tr td:nth-child(2){
+	text-align: left;
+	padding-left: 20px!important;
+}
+.evaluate .table table tr th:nth-child(3),
+.evaluate .table table tr td:nth-child(3){
+	width: 137px;
+}
+/*mynews*/
+.mynews .newscnt{
+	float: left;
+	width: 100%;
+}
+.mynews .newscnt h3{
+	float: left;
+	width: 100%;
+	margin: 10px 0;
+}
+.mynews .newscnt h3 a.choose,
+.mynews .newscnt h3 span{
+	float: left;
+	font-size: 18px;
+	color: #a4a4a4;
+}
+.mynews .newscnt h3 span{
+	padding: 0 10px;
+}
+.mynews .newscnt h3 a.choose.active{
+	color: #22ac38;
+}
+.mynews .newscnt h3 a.del{
+	float: right;
+	background-color: #22ac38;
+	color: #fff;
+	width: 100px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 5px;
+}
+.mynews .newscnt table{
+	float: left;
+	width: 100%;
+}
+.mynews .newscnt table tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.mynews .newscnt table tr th{
+	height: 35px;
+	background-color: #22ac38;
+	color: #fff;
+}
+.mynews .newscnt table tr td{
+	height: 42px;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+}
+.mynews .newscnt table tr th:first-child,
+.mynews .newscnt table tr td:first-child{
+	text-align: center;
+}
+.mynews .newscnt table tr th:not(:first-child),
+.mynews .newscnt table tr td:not(:first-child){
+	padding-left: 79px;
+}
+.mynews .newscnt table tr td:first-child{
+	border-right: 1px solid #ddd;
+}
+.mynews .newscnt table tr th:nth-child(1),
+.mynews .newscnt table tr td:nth-child(1){
+	width: 80px;
+}
+.mynews .newscnt table tr th:nth-child(2),
+.mynews .newscnt table tr td:nth-child(2){
+	width: 475px;
+}
+.mynews .newscnt table tr th:nth-child(3),
+.mynews .newscnt table tr td:nth-child(3){
+	width: 200px;
+}
+.mynews .newscnt table tr th:nth-child(4),
+.mynews .newscnt table tr td:nth-child(4){
+	width: 202px;
+}
+.mynews .newscnt table tr th span{
+	color: #fff;
+	float: left;
+}
+.mynews .newscnt table tr input[type="checkbox"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 2px 30px;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.mynews .newscnt table tr input[type="checkbox"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.mynews .newscnt table tr th input[type="checkbox"]{
+	margin: 3px 5px 0 16px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.mynews .newscnt table tr.unread td{
+	font-weight: bold;
+}
+.mynews .newscnt .pagination{
+	float: right;
+}
