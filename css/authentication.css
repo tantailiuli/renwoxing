@@ -1,0 +1,274 @@
+/*enterprisecertification*/
+.enterprisecertification form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.enterprisecertification form .item{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.enterprisecertification form .item .signlabel{
+	float: left;
+	width: 190px;
+	line-height: 30px;
+	text-align: right;
+}
+.enterprisecertification form .item .signlabel i{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+}
+.enterprisecertification form .item .signlabel i::before{
+	position: absolute;
+	top: -6px;
+	left: 0;
+	content: "*";
+	font-style: normal;
+	color: #ff1121;
+}
+.enterprisecertification form .item1 .border-l{
+	border-left: 1px solid #ccc;
+}
+.enterprisecertification form .item1 .border-r{
+	border-right: 1px solid #ccc;
+}
+.enterprisecertification form .item1 .left{
+	width: 576px;
+	float: left;
+}
+.enterprisecertification form .item1 .left div{
+	float: left;
+	width: 100%;
+}
+.enterprisecertification form .item1 .left div p{
+	width: 370px;
+	margin-right: 14px;
+	float: right;
+}
+.enterprisecertification form .item1 .left div p input[type="text"]{
+	float: left;
+	width: 284px;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+}
+.enterprisecertification form .item1 .left div p .upload{
+	float: left;
+    position: relative;
+    width: 80px;
+    height: 24px;
+    cursor: pointer;
+    background-color: #22ac38;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 5px;
+    margin: 3px 0 0 6px;
+}
+.enterprisecertification form .item1 .left div .upload .file{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+}
+.enterprisecertification form .item1 .left div .img{
+	float: left;
+	border: 1px solid #ccc;
+	width: 372px;
+	height: 190px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.enterprisecertification form .item1 .left div img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.enterprisecertification form .item1 .left div img[src=""]{
+	visibility: hidden;
+}
+.enterprisecertification form .item1 .left div:last-child .img{
+	margin-bottom: 0;
+}
+.enterprisecertification form .item1 .right{
+	width: 384px;
+	float: right;
+	padding-left: 14px;
+}
+.enterprisecertification form .item1 .right .req{
+	float: left;
+	width: 100%;
+}
+.enterprisecertification form .item1 .right .req h3{
+	position: relative;
+	padding-left: 20px;
+	font-size: 16px;
+	float: left;
+	width: 100%;
+	height: 35px;
+	line-height: 34px;
+	background-color: #22ac38;
+	margin-bottom: 12px;
+	color: #fff;
+}
+.enterprisecertification form .item1 .right .req h3 i{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 4px;
+	height: 15px;
+	display: block;
+	background-color: #fff;
+}
+.enterprisecertification form .item1 .right .req .p{
+	float: left;
+	width: 100%;
+	margin-bottom: 6px;
+}
+.enterprisecertification form .item1 .right .req img{
+	float: left;
+	width: 232px;
+	height: 147px;
+}
+.enterprisecertification form .item1 .right .req div{
+	float: left;
+	width: 100%;
+}
+.enterprisecertification form .item1 .right .req:first-child div{
+	margin-bottom: 55px;
+}
+.enterprisecertification form .item1 .right .req div p{
+	float: left;
+	color: #a4a4a4;
+	width: 100%;
+	line-height: 24px;
+}
+.enterprisecertification form .item2 input{
+	width: 645px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+.enterprisecertification form .item2 .signlabel span{
+	float: left;
+	width: 100%;
+	line-height: 18px;
+	text-align: right;
+}
+.enterprisecertification form .item2 .signlabel span i:before{
+	top: 0;
+}
+.enterprisecertification form .item2 .signlabel span.color{
+	color: #ff1121;
+	font-size: 14px;
+}
+.enterprisecertification form .item3 select{
+	float: left;
+	height: 30px;
+    border: 1px solid #ccc;
+    line-height: 28px;
+    outline: none;
+}
+.enterprisecertification form .item3 .span{
+	float: left;
+	width: 20px;
+	text-align: center;
+	line-height: 28px;
+}
+.enterprisecertification form .item4 p input[type="radio"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 8px 10px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.enterprisecertification form .item4 p input[type="radio"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.enterprisecertification form .item4 p .span{
+	float: left;
+	margin-right: 35px;
+	line-height: 30px;
+}
+.enterprisecertification form .item4 p .input-group.date{
+	height: 30px;
+	float: left;
+	width: 300px;
+}
+.form-control:focus{
+	border-color: #22ac38;
+}
+.enterprisecertification form .item4 p .input-group.date input{
+	height: 30px;
+}
+.enterprisecertification form .item5 textarea{
+	float: left;
+	width: 645px;
+	max-width: 645px;
+	height: 155px;
+}
+.allfixwindowschoose{
+	padding: 10px;
+}
+/*identityauthentication*/
+.identityauthentication form .item .signlabel{
+	width: 135px;
+}
+.identityauthentication form .item1 .item input[type="text"]{
+	width: 427px;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+}
+.identityauthentication form .item1 .item input[type="radio"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 8px 6px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.identityauthentication form .item1 .item input[type="radio"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.identityauthentication form .item1 .item .span{
+	float: left;
+	margin-right: 15px;
+	line-height: 28px;
+}
+.identityauthentication form .item1 .left div p{
+	width: 425px;
+}
+.identityauthentication form .item1 .left div p input[type="text"]{
+	width: 339px;
+}
+.identityauthentication form .item1 .left div .img{
+	width: 427px;
+}

@@ -1,0 +1,122 @@
+/*resetpassword*/
+.resetpassword form{
+	float: left;
+	width: 100%;
+}
+.resetpassword form .item{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.resetpassword form .item label{
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0;
+}
+.resetpassword form .item input{
+	width: 380px;
+	height: 30px;
+	padding: 0 10px;
+}
+.resetpassword form p{
+	float: left;
+	width: 460px;
+}
+.resetpassword form p input[type="submit"]{
+	float: right;
+	width: 80px;
+	height: 32px;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+}
+/*resetmobile*/
+.resetmobile .step{
+	float: left;
+	width: 100%;
+	color: #a4a4a4;
+	font-size: 18px;
+	line-height: 18px;
+	margin:6px 0 24px;
+}
+.resetmobile form{
+	float: left;
+	width: 100%;
+}
+.resetmobile form .item{
+	float: left;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 22px;
+	font-size: 16px;
+}
+.resetmobile form .item label{
+	float: left;
+	width: 100px;
+	text-align: right;
+	font-weight: normal;
+	height: 30px;
+	line-height: 30px;
+}
+.resetmobile form .item .w330{
+	float: left;
+	width: 330px;
+	height: 30px;
+	margin-right: 17px;
+	line-height: 30px;
+}
+.resetmobile form .item input{
+	padding: 0 10px;
+}
+.resetmobile form .item .last{
+	float: left;
+	line-height: 30px;
+	color: #a4a4a4;
+}
+.resetmobile form .item .color{
+	color: #ff1121;
+}
+.resetmobile form .item a{
+	float: left;
+	width: 140px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	text-align: center;
+	line-height: 28px;
+	color: #333;
+}
+.resetmobile form p{
+	float: left;
+	width: 100%;
+	padding-left: 100px;
+}
+.resetmobile form p input[type="submit"]{
+	width: 80px;
+	height: 32px;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 5px;
+	outline: none;
+	border: 0;
+}
+/*resetemail*/
+.resetemail form p input[type="submit"]{
+	width: 140px;
+	height: 30px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	line-height: 28px;
+	color: #333;
+	border-radius: 0;
+}
+.resetemail p.success{
+	color: #22ac38;
+	font-size: 16px;
+}

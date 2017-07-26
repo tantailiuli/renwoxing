@@ -1,0 +1,129 @@
+.publishingservice{
+	font-size: 16px;
+}
+.publishingservice form{
+	float: left;
+	width: 100%;
+}
+.publishingservice .item{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+}
+.publishingservice form .item .signlabel{
+	width: 80px;
+	float: left;
+	height: 30px;
+	margin-right: 13px;
+	line-height: 30px;
+	text-align: right;
+}
+.publishingservice form .item .type{
+	float: left;
+	width: 300px;
+	position: relative;
+}
+.publishingservice form .item .type p{
+	position: relative;
+	border: 1px solid #ccc;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.publishingservice form .item .type p i{
+	position: absolute;
+	top: 12px;
+	right: 14px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid #666;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent
+}
+.publishingservice form .item .type div{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0 1px 1px;
+	display: none;
+	max-height: 300px;
+	overflow:auto;
+	background-color: #fff;
+	z-index: 10;
+}
+.publishingservice form .item .type div span{
+	float: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.publishingservice form .item .type div span:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+.publishingservice form .item input:not([type="submit"]){
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+
+}
+.publishingservice form .item .ipt1{
+	width: 598px;
+}
+.publishingservice form .item .ipt2{
+	width: 300px;
+}
+.publishingservice form .item .cover{
+	width: 598px;
+	float: left;
+}
+.publishingservice form .item .cover .up,
+.publishingservice form .item .cover .down{
+	float: left;
+	width: 100%;
+}
+.publishingservice form .item .cover .down{
+	margin-top: 25px;
+	border: 1px solid #ccc;
+	height: 120px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.publishingservice form .item .cover .up .upload{
+	float: left;
+    position: relative;
+    width: 80px;
+    height: 24px;
+    cursor: pointer;
+    background-color: #22ac38;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+    margin: 3px 0 0 18px;
+}
+.publishingservice form .item .cover .up .upload .file{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+}
+.publishingservice form .item .writebox{
+	float: left;
+	width: 700px;
+}
+.publishingservice .itemsubmit{
+	width: 790px;
+}
