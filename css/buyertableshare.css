@@ -1,0 +1,132 @@
+/*buyertableshare*/
+.buyertableshare table{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.buyertableshare table tr{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.buyertableshare table tr th,
+.buyertableshare table tr td{
+	padding-left: 20px;
+}
+.buyertableshare table tr th{
+	height: 35px;
+	background-color: #22ac38;
+	color: #fff;
+}
+.buyertableshare table tr td{
+	height: 42px;
+	color: #666;
+	border-bottom: 1px solid #ddd;
+}
+.buyertableshare table tr td a.gray-a{
+	color: #666;
+}
+.buyertableshare table tr td a.color-a1{
+	background-color: #f60;
+	color: #fff;
+	text-align: center;
+	width: 62px;
+	border-radius: 5px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+.buyertableshare table tr td a.color-a2{
+	background-color: #f9f9f9;
+	color: #333;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	height: 24px;
+	line-height: 22px;
+	width: 84px;
+	font-size: 12px;
+	float: left;
+	margin-right: 15px;
+}
+.buyertableshare table tr td a.color-a3{
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	width: 62px;
+	border-radius: 5px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	float: left;
+	margin-right: 10px;
+}
+/*publishrequirement*/
+.buyertableshare.publishrequirement table tr th:nth-child(1),
+.buyertableshare.publishrequirement table tr td:nth-child(1){
+	width: 120px;
+}
+.buyertableshare.publishrequirement table tr th:nth-child(2),
+.buyertableshare.publishrequirement table tr td:nth-child(2){
+	width: 132px;
+}
+.buyertableshare.publishrequirement table tr th:nth-child(3),
+.buyertableshare.publishrequirement table tr td:nth-child(3){
+	width: 247px;
+}
+.buyertableshare.publishrequirement table tr th:nth-child(4),
+.buyertableshare.publishrequirement table tr td:nth-child(4){
+	width: 145px;
+}
+.buyertableshare.publishrequirement table tr th:nth-child(5),
+.buyertableshare.publishrequirement table tr td:nth-child(5){
+	width: 173px;
+}
+.buyertableshare.publishrequirement table tr th:nth-child(6),
+.buyertableshare.publishrequirement table tr td:nth-child(6){
+	width: 140px;
+}
+.buyertableshare.publishrequirement .titlesign a.addreq{
+	float: right;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #22ac38;
+	border-radius: 5px;
+	text-align: center;
+}
+/*paidservice*/
+.buyertableshare.paidservice table tr th:nth-child(1),
+.buyertableshare.paidservice table tr td:nth-child(1){
+	width: 250px;
+}
+.buyertableshare.paidservice table tr th:nth-child(1){
+	text-align: center;
+	padding: 0;
+}
+.buyertableshare.paidservice table tr td:nth-child(1){
+	border-right: 1px solid #ddd;
+}
+.buyertableshare.paidservice table tr th:nth-child(2),
+.buyertableshare.paidservice table tr td:nth-child(2){
+	width: 158px;
+	padding: 0 ;
+	text-align: center;
+}
+.buyertableshare.paidservice table tr th:nth-child(3),
+.buyertableshare.paidservice table tr td:nth-child(3){
+	width: 238px;
+}
+.buyertableshare.paidservice table tr th:nth-child(4),
+.buyertableshare.paidservice table tr td:nth-child(4){
+	width: 171px;
+}
+.buyertableshare.paidservice table tr th:nth-child(5),
+.buyertableshare.paidservice table tr td:nth-child(5){
+	width: 140px;
+}
+.buyertableshare.paidservice .pagination{
+	float: right;
+}

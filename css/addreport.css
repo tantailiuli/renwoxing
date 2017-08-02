@@ -1,0 +1,69 @@
+.addreport form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.addreport form .item1,
+.addreport form .item2,
+.addreport form .item3{
+	width: 100%;
+	float: left;
+}
+.addreport form .signlabel{
+	float: left;
+	width: 128px;
+	line-height: 16px;
+	text-align: right;
+	margin-right: 8px;
+}
+.addreport form .item1{
+	margin-bottom: 28px;
+}
+.addreport form .item1 span{
+	float: left;
+	line-height: 16px;
+}
+.addreport form .item2 div{
+	float: left;
+	width: 666px;
+}
+.addreport form .item2 div .span{
+	float: left;
+	line-height: 16px;
+	margin: 0 40px 28px 0;
+}
+.addreport form .item2 div input[type="radio"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin:1px 8px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.addreport form .item2 div input[type="radio"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.addreport form .item3 textarea{
+	float: left;
+	width: 620px;
+	height: 154px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	max-width: 620px;
+}
+.addreport form .subbox{
+	float: left;
+	width: 100%;
+	padding: 35px 0 0 131px;
+}
+.addreport form .subbox .allfixwindowschoose{
+	float: left;
+}

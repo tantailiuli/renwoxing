@@ -1,0 +1,222 @@
+.promaincnt .item{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.promaincnt .item .iteminr{
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	border: 1px solid #ddd;
+}
+.promaincnt .item .iteminr.inr1{
+	padding: 6px 20px;
+}
+.promaincnt .item .iteminr.inr1 .left{
+	float: left;
+	width: 184px;
+	margin-right: 50px;
+}
+.promaincnt .item .iteminr.inr1 .left p{
+	float: left;
+	width: 100%;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	margin: 30px 0;
+}
+.promaincnt .item .iteminr.inr1 .left p span{
+	float: left;
+}
+.promaincnt .item .iteminr.inr1 .left p span:nth-child(2){
+	width: 72px;
+	text-align: right;
+	color: #f80;
+}
+.promaincnt .item .iteminr.inr1 .left p span:nth-child(3){
+	margin-left: 16px;
+	color: #a4a4a4;
+}
+.promaincnt .item .iteminr.inr1 .right{
+	width: 690px;
+	float: left;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel{
+	float: left;
+	width: 262px;
+	background-color: #fff;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 30px;
+	padding-left: 12px;
+	line-height: 28px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 23px 0;
+	border-color: #fff;
+	cursor: pointer;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li.active{
+	border-color: #feca7a;
+	background-color: #fffdfb;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li.active:before,
+.promaincnt .item .iteminr.inr1 .right ul.sel li.active:after{
+	position: absolute;
+	content: "";
+	top: 9px;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li.active:before{
+	right: -6px;
+	border-left: 6px solid #eca952;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li.active:after{
+	right: -5px;
+	border-left: 6px solid #fff;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li span{
+	float: left;
+	color: #666;
+}
+.promaincnt .item .iteminr.inr1 .right ul.sel li span:last-child{
+	float: right;
+	margin-right: 30px;
+	color: #22ac38;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt{
+	float: left;
+	width: 397px;
+	height: 180px;
+	background-color: #fffdfb;
+	margin: 23px 0 0 30px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li{
+	padding: 2px 18px;
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li.block{
+	display: block;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list{
+	height: 14px;
+	line-height: 14px;
+	width: 100%;
+	float: left;
+	margin: 13px 0 0 0;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i{
+	float: left;
+	width: 78px;
+	height: 14px;
+	margin-right: 26px;
+	background-image: url(../images/icon/icon_yellowstar.png);
+	background-repeat: no-repeat;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i.i1{
+	background-position: 0 0;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i.i2{
+	background-position: 0 -21px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i.i3{
+	background-position: 0 -42px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i.i4{
+	background-position: 0 -63px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list i.i5{
+	background-position: 0 -84px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list .span1{
+	float: left;
+	margin-right: 10px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list .span1 span{
+	color: #f80;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list .per{
+	float: left;
+	height: 14px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list .per span:first-child{
+	float: left;
+	height: 12px;
+	background-color: #f90;
+	margin: 1px 0;
+	min-width: 1px;
+}
+.promaincnt .item .iteminr.inr1 .right ul.cnt li .list .per span:last-child{
+	float: left;
+	margin-left: 15px;
+	color: #f80;
+}
+.promaincnt .item .iteminr.inr2 .up{
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+}
+.promaincnt .item .iteminr.inr2 .up p{
+	height: 16px;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	line-height: 16px;
+	margin:15px 0;
+}
+.promaincnt .item .iteminr.inr2 .up p:first-child span:first-child{
+	margin-left: 153px;
+	float: left;
+	width: 126px;
+	font-size: 14px;
+	color: #a4a4a4;
+}
+.promaincnt .item .iteminr.inr2 .up p:first-child span:last-child{
+	font-size: 14px;
+	float: left;
+	color: #a4a4a4;
+}
+.promaincnt .item .iteminr.inr2 .up p:not(:first-child) span:first-child{
+	float: left;
+	width: 108px;
+	text-align: right;
+}
+.promaincnt .item .iteminr.inr2 .up p:not(:first-child) span:nth-child(2){
+	color: #f80;
+	width: 126px;
+	float: left;
+	margin-left: 46px;
+}
+.promaincnt .item .iteminr.inr2 .up p:not(:first-child) span:last-child{
+	float: left;
+	color: #666;
+}
+.promaincnt .item .iteminr.inr2 .down{
+	float: left;
+	width: 100%;
+	padding: 27px 0;
+	border-top: 1px solid #ddd;
+}
+.promaincnt .item .iteminr.inr2 .down p{
+	width: 50%;
+	float: left;
+	font-size: 16px;
+}
+.promaincnt .item .iteminr.inr2 .down p span{
+	float: left;
+}
+.promaincnt .item .iteminr.inr2 .down p span:nth-child(2){
+	color: #f80;
+	margin:0 8px 0 40px;
+}

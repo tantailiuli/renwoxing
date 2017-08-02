@@ -38,6 +38,7 @@
 	position: relative;
 	padding-right: 20px;
 	margin: 0 18px 0 20px;
+	z-index: 10;
 }
 .prohead .up .p4 .sel{
 	cursor: pointer;
@@ -181,7 +182,7 @@
 	height: 100%;
 }
 .prodiy_box .bar{
-	height: 170px;
+	height: 130px;
 }
 .prodiy_box .bar img:first-child{
 	float: left;
@@ -192,6 +193,23 @@
 	float: left;
 	width: 960px;
 	height: 120px;
+}
+.prodiy_box .shopnav_box{
+	width: 100%;
+	height: 40px;
+	background-color: #22ac38;
+}
+.prodiy_box .shopnav_box .shopnav a{
+	color: #fff;
+	float: left;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 0 50px;
+}
+.prodiy_box .shopnav_box .shopnav a:hover,
+.prodiy_box .shopnav_box .shopnav a.active{
+	background-color: #179500;
 }
 .prodiy_box .banner{
 	width: 100%;
@@ -423,9 +441,8 @@
 .promain .promaincnt .server .servercnt ul li{
 	float: left;
 	margin: 0 10px 20px;
-	padding: 9px 9px 0;
+	padding: 9px 9px 12px;
 	width: 310px;
-	height: 358px;
 	border: 1px solid #ddd;
 }
 .promain .promaincnt .server .servercnt ul li:hover{
@@ -469,4 +486,109 @@
 }
 .promain .promaincnt .server .servercnt ul li .txt:hover{
 	color: #22ac38;
+}
+.promain .promaincnt .server .servercnt ul li .buyorcall{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+.promain .promaincnt .server .servercnt ul li .buyorcall a{
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 28px;
+}
+.promain .promaincnt .server .servercnt ul li .buyorcall a:first-child{
+	float: left;
+	border-color: #22ac38;
+	background-color: #22ac38;
+	color: #fff;
+}
+.promain .promaincnt .server .servercnt ul li .buyorcall a:last-child{
+	float: right;
+	border-color: #ccc;
+	background-color: #eee;
+	color: #333;
+}
+.promain .promaincnt .server .servercnt ul li .buyorcall a:hover{
+	color: #fff;
+	background-color: #f60;
+	border-color: #f60;
+}
+.promain .promaincnt .server .pagination{
+	float: right;
+}
+.promain .promaincnt.buyservice .server .servercnt ul li .price span.span0{
+	float: left;
+	line-height: 50px;
+}
+.promain .promaincnt.buyservice .server .servercnt ul li .price span.span2 span{
+	color: #f60;
+	font-weight: bold;
+}
+.promain .promaincnt.buyservice .sersel1{
+	height: 40px;
+	float: left;
+	width: 100%;
+	background-color: #e1e1e1;
+}
+.promain .promaincnt.buyservice .sersel1 span,
+.promain .promaincnt.buyservice .sersel1 a{
+	width: 72px;
+	float: left;
+	text-align: center;
+	height: 40px;
+	color: #333;
+	line-height: 40px;
+	font-size: 18px;
+}
+.promain .promaincnt.buyservice .sersel1 span{
+	background-color: #c4c4c4;
+}
+.promain .promaincnt.buyservice .sersel1 a:hover{
+	color: #22ac38;
+}
+.promain .promaincnt.buyservice .sersel2{
+	height: 40px;
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+	margin: 20px 0;
+}
+.promain .promaincnt.buyservice .sersel2 li{
+	float: left;
+	width: 103px;
+	height: 100%;
+	padding: 0 17px;
+	border-right: 1px solid #ddd;
+}
+.promain .promaincnt.buyservice .sersel2 li a{
+	float: left;
+	width: 100%;
+	height: 100%;
+	line-height: 38px;
+	font-size: 18px;
+	color: #333;
+}
+.promain .promaincnt.buyservice .sersel2 li a.active{
+	color: #22ac38;
+}
+.promain .promaincnt.buyservice .sersel2 li a i{
+	float: right;
+	width: 8px;
+	height: 16px;
+	margin: 11px 0;
+	background: url(../images/icon/icon_provider01.png) no-repeat 0 -36px;
+}
+.promain .promaincnt.buyservice .sersel2 li a.active i{
+	background: url(../images/icon/icon_provider01.png) no-repeat -38px -36px;
+}
+.promain .promaincnt.buyservice .sersel2 li a.reverse i{
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
 }

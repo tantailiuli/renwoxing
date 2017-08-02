@@ -1,0 +1,93 @@
+.moneycard form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.moneycard form .item{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.moneycard form .item label{
+	width: 85px;
+	margin-right: 5px;
+	line-height: 28px;
+	margin: 0;
+	float: left;
+	text-align: right;
+	font-weight: normal;
+}
+.moneycard form .item input[type="text"],
+.moneycard form .item .type{
+	float: left;
+	width: 330px;
+	height: 30px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	padding: 0 10px;
+	margin-right: 15px;
+}
+.moneycard form .item a{
+	float: left;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    text-align: center;
+    line-height: 28px;
+    color: #333;
+}
+.moneycard form .item .type{
+	width: 400px;
+	position: relative;
+	padding: 0;
+}
+.moneycard form .item .type p{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	padding: 0 10px;
+}
+.moneycard form .item .type p i{
+	position: absolute;
+    top: 12px;
+    right: 14px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #666;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+.moneycard form .item .type div{
+	position: absolute;
+    top: 29px;
+    left: -1px;
+    right: -1px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0 1px 1px;
+    display: none;
+    max-height: 300px;
+    overflow: auto;
+    background-color: #fff;
+    z-index: 10;
+}
+.moneycard form .item .type div span{
+	float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.moneycard form .item .type div span:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+.moneycard form .itemsub{
+	float: left;
+	padding-top: 10px;
+	width: 260px;
+}

@@ -1,0 +1,107 @@
+.buyservice-buy .buy{
+	float: left;
+	width: 100%;
+}
+.buyservice-buy .buy form{
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+.buyservice-buy .buy form h3{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 24px 0;
+}
+.buyservice-buy .buy form .item{
+	float: left;
+	width: 100%;
+	margin: 7px 0;
+	font-size: 16px;
+}
+.buyservice-buy .buy form .item .signlabel{
+	float: left;
+	width: 120px;
+	height: 30px;
+	padding-right: 5px;
+	text-align: right;
+	line-height: 30px;
+	color: #333;
+}
+.buyservice-buy .buy form .item span{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+}
+.buyservice-buy .buy form .item span span.color{
+	float: right;
+	margin-left: 2px;
+	color: #f60;
+}
+.buyservice-buy .buy form .item input[type="text"]{
+	float: left;
+	height: 30px;
+	width: 245px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+	padding: 0 10px;
+}
+.buyservice-buy .buy form .item input[type="radio"]{
+	position: relative;
+	margin: 8px 5px 0 0;
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.buyservice-buy .buy form .item input[type="radio"]:after{
+	position: absolute;
+	content: "";
+	top: 2px;
+	left: 2px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+}
+.buyservice-buy .buy form .item input[type="radio"]:checked:after{
+	background-color: #22ac38;
+}
+.buyservice-buy .buy form .item.contact .span1{
+	margin-right: 35px;
+}
+.buyservice-buy .buy form .item.contact .span2{
+	margin-right: 10px;
+}
+.buyservice-buy .buy form .item textarea{
+	width: 665px;
+	max-width: 665px;
+	height: 140px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.buyservice-buy .buy form .submitbox{
+	float: left;
+	width: 100%;
+	padding:20px 0 0 120px;
+}
+.buyservice-buy .buy form .submitbox input[type="submit"]{
+	float: left;
+	width: 80px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #22ac38;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: 0;
+}

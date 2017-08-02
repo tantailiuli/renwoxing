@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var $val = $(".accountsafe .top input[type='hidden']").val(),
 		$span = $(".accountsafe .top p .color span"),
 		$text = $(".accountsafe .top p .text")
-		$num = 8;
+		$num = 4;
 	var $per = $val/$num;
 	if($val && $per>0 && $per<0.25 || $per==0.25){
 		$span.attr("class","cor1");

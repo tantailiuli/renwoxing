@@ -55,18 +55,26 @@ SelectPullDown2.prototype ={
 		this.iptEven().selectPick();	
 	}
 };
-var type = new SelectPullDown2('typeselect2');
-type.init();
+if(document.getElementById('typeselect2')){
+	var type2 = new SelectPullDown2('typeselect2');
+	type2.init();
+}
+if (document.getElementById('typeselect3')){
+	var type3 = new SelectPullDown2('typeselect3');
+	type3.init();
+}
 //
 $(".publishingservice .item .cover .up .upload .file").change(function(){
 	$(this).parent().prev().val($(this).val());
 	$(this).parent().parent().next().find("img").attr("src",$(this).val())
 })
 //
-CKEDITOR.replace( 'TextArea1',
-    {
-        height: 400,
-        language: 'zh-cn',
-        removeDialogTabs: 'image:advanced;link:advanced'
-    }
-);
+if(document.getElementById('TextArea1')){
+	CKEDITOR.replace( 'TextArea1',
+	    {
+	        height: 400,
+	        language: 'zh-cn',
+	        removeDialogTabs: 'image:advanced;link:advanced'
+	    }
+	);
+}

@@ -1,0 +1,164 @@
+.servicedetails .detailsup{
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 25px;
+}
+.servicedetails .detailsup .carousel{
+	float: left;
+	width: 565px;
+	height: 400px;
+}
+.servicedetails .detailsup .carousel .contral{
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 90px;
+	display: block;
+	transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	background-image: url(../images/icon/icon_carousel.png);
+	background-repeat: no-repeat;
+}
+.servicedetails .detailsup .carousel .contral.contral-l{
+	left: 0;
+	background-position: 0 0;
+}
+.servicedetails .detailsup .carousel .contral.contral-r{
+	right: 0;
+	background-position: -90px 0;
+}
+.servicedetails .detailsup .tobuy{
+	width: 322px;
+	float: right;
+}
+.servicedetails .detailsup .tobuy .item{
+	float: left;
+	width: 100%;
+}
+.servicedetails .detailsup .tobuy .item1 h3{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.servicedetails .detailsup .tobuy .item1 p{
+	float: left;
+	width: 100%;
+	margin: 13px 0 5px;
+	line-height: 24px;
+	color: #666;
+	height: 100px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.servicedetails .detailsup .tobuy .item2{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 9px 0;
+}
+.servicedetails .detailsup .tobuy .item2 p{
+	float: left;
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+}
+.servicedetails .detailsup .tobuy .item2 p span{
+	color: #a4a4a4;
+}
+.servicedetails .detailsup .tobuy .item2 p span.span1{
+	width: 86px;
+	float: left;
+}
+.servicedetails .detailsup .tobuy .item2 p span.color{
+	color: #f60;
+	margin-left: 4px;
+	font-weight: bold;
+}
+.servicedetails .detailsup .tobuy .item3{
+	padding-top: 40px;
+}
+.servicedetails .detailsup .tobuy .item3 a{
+	position: relative;
+	float: left;
+	margin: 0 10px;
+	width: 140px;
+	height: 30px;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	line-height: 28px;
+	font-size: 16px;
+}
+.servicedetails .detailsup .tobuy .item3 a.a1{
+	border-color: #22ac38;
+	background-color: #22ac38;
+	color:#fff;
+}
+.servicedetails .detailsup .tobuy .item3 a.a2{
+	border-color: #ccc;
+	background-color: #eee;
+	color:#333;
+}
+.servicedetails .detailsup .tobuy .item3 a.a1:hover{
+	border-color: #179500;
+	background-color: #179500;
+}
+.servicedetails .detailsup .tobuy .item3 a.a2:hover{
+	border-color: #bbb;
+	background-color: #ddd;
+}
+.servicedetails .detailsdown{
+	float: left;
+	width: 100%;
+	margin-top: 35px;
+}
+.servicedetails .detailsdown ul.sel{
+	float: left;
+	width: 100%;
+	height: 40px;
+	background-color: #c4c4c4;
+	margin-bottom: 20px;
+}
+.servicedetails .detailsdown ul.sel li{
+	float: left;
+	width: 112px;
+	text-align: center;
+	height: 100%;
+	line-height: 36px;
+	font-size: 18px;
+	border-top: 2px solid #c4c4c4;
+	cursor: pointer;
+}
+.servicedetails .detailsdown ul.sel li.active{
+	border-top: 2px solid #f60;
+	background-color: #eee;
+}
+.servicedetails .detailsdown ul.cnt{
+	float: left;
+	width: 100%;
+}
+.servicedetails .detailsdown ul.cnt>li{
+	float: left;
+	width: 100%;
+	display: none;
+}
+.servicedetails .detailsdown ul.cnt>li.block{
+	display: block;
+}
+.servicedetails .detailsdown ul.cnt>li img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}

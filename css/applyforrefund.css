@@ -1,0 +1,42 @@
+.applyforrefund form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.applyforrefund form .item{
+	float: left;
+	width: 100%;
+}
+.applyforrefund form .item span{
+	line-height: 16px;
+	float: left;
+}
+.applyforrefund form .item .signlabel{
+	float: left;
+	width: 119px;
+	text-align: right;
+	line-height: 16px;
+	margin-right: 8px;
+}
+.applyforrefund form .item1{
+	margin-bottom: 30px;
+}
+.applyforrefund form .item2{
+	margin-bottom: 28px;
+}
+.applyforrefund form .item3 textarea{
+	float: left;
+	width: 598px;
+	height: 154px;
+	max-width: 598px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.applyforrefund form .subbox{
+	float: left;
+	width: 100%;
+	padding: 35px 0 0 122px;
+}
+.applyforrefund form .subbox .allfixwindowschoose{
+	float: left;
+}

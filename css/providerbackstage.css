@@ -27,7 +27,7 @@
 	font-size: 18px;
 	line-height: 40px;
 }
-/*.providerbackstagenav .nav a.active:after{
+.providerbackstagenav .nav a.active:after{
 	position: absolute;
 	content: "";
 	left: 77px;
@@ -37,7 +37,7 @@
 	border-left:6px solid transparent;
 	border-right:6px solid transparent;
 	border-bottom: 7px solid #fff;
-}*/
+}
 .providerbackstage_box{
 	background-color: #fff;
 	padding-bottom: 108px;
@@ -115,6 +115,10 @@
 	float: left;
 	margin-right: 8px;
 	background: url(../images/icon/icon_provider02.png) no-repeat -50px 12px;
+}
+.providerbackstage .person .up p.p4 i.i{
+	height: 30px;
+	background: url(../images/icon/icon_provider02.png) no-repeat -50px 0;
 }
 .providerbackstage .person .up p.p4 .span{
 	float: left;

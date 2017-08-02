@@ -1,0 +1,152 @@
+.providerfile .item1,
+.providerfile .item2,
+.providerfile .item3,
+.providerfile .item4{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.providerfile .item1 .inr,
+.providerfile .item2 .inr,
+.providerfile .item3 .inr,
+.providerfile .item4 .inr{
+	float: left;
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 20px;
+	min-height: 180px;
+}
+.providerfile .item1 .inr img{
+	float: left;
+	width: 167px;
+	height: 167px;
+}
+.providerfile .item1 .inr div{
+	float: right;
+	width: 740px;
+}
+.providerfile .item1 .inr div h3{
+	float: left;
+	width: 100%;
+	height: 18px;
+	margin: 50px 0 20px;
+}
+.providerfile .item1 .inr div h3 span.span{
+	float: left;
+	font-size: 18px;
+}
+.providerfile .item1 .inr div h3 .p b{
+	float: left;
+    margin: 2px 0 0 10px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon/icon_provider01.png) no-repeat 0 0;
+}
+.providerfile .item1 .inr div h6{
+	float: left;
+	width: 100%;
+	height: 58px;
+	color: #666;
+	font-size: 14px;
+}
+.providerfile .item1 .inr div .address{
+	float: left;
+	width: 100%;
+}
+.providerfile .item1 .inr div .address span:first-child{
+	font-size: 16px;
+	line-height: 16px;
+}
+.providerfile .item1 .inr div .address span:last-child{
+	color: #666;
+}
+.providerfile .item2 .inr .pic{
+	float: left;
+	width: 249px;
+}
+.providerfile .item2 .inr .pic img{
+	float: left;
+	width: 100%;
+	height: 173px;
+}
+.providerfile .item2 .inr .pic span{
+	margin-top: 18px;
+	float: left;
+	width: 100%;
+	line-height: 14px;
+	text-align: center;
+}
+.providerfile .item3 .inr p{
+	font-size: 16px;
+}
+.providerfile .item4 p.title{
+	float: left;
+	width: 100%;
+	height: 16px;
+	padding: 0 20px;
+	line-height: 16px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.providerfile .item4 p.title span:first-child{
+	float: left;
+}
+.providerfile .item4 .score{
+	float: left;
+	font-size: 14px;
+	color: #a4a4a4;
+}
+.providerfile .item4 .score span{
+	float: left;
+	margin: 0 30px;
+	color: #f60;
+	font-size: 16px;
+}
+.providerfile .item4 .inr{
+	padding: 0 20px;
+}
+.providerfile .item4 .inr ul.faith{
+	float: left;
+	width: 100%;
+}
+.providerfile .item4 .inr ul.faith li{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 13px;
+	border-bottom: 1px solid #ddd;
+}
+.providerfile .item4 .inr ul.faith li p:first-child{
+	float: left;
+	width: 100%;
+	line-height: 16px;
+	margin: 18px 0 12px;
+}
+.providerfile .item4 .inr ul.faith li p:first-child .spanl{
+	float: left;
+}
+.providerfile .item4 .inr ul.faith li p:first-child .spanl span.color{
+	float: left;
+	color: #22ac38;
+}
+.providerfile .item4 .inr ul.faith li p:first-child .spanr{
+	float: right;
+	margin-right: 17px;
+}
+.providerfile .item4 .inr ul.faith li p:last-child{
+	float: left;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.providerfile .item4 .inr ul.faith li p:last-child span:first-child{
+	float: left;
+	width: 50px;
+}
+.providerfile .item4 .inr ul.faith li p:last-child span:last-child{
+	float: left;
+	width: 834px;
+	line-height: 24px;
+}
+.providerfile .item4 .inr ul.pagination{
+	float: right;
+}

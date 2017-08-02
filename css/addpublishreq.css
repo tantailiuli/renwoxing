@@ -1,0 +1,87 @@
+.addpublishreq form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.addpublishreq form .item{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.addpublishreq form .item label{
+	font-weight: normal;
+	float: left;
+	width: 80px;
+	text-align: right;
+	height: 30px;
+	margin: 0 10px 0 0;
+	line-height: 28px;
+}
+.addpublishreq form .item input[type="text"]{
+	float: left;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 28px;
+	border: 1px solid #ccc;
+}
+.addpublishreq form .item.item1{
+	margin-bottom: 20px;
+}
+.addpublishreq form .item.item1 span{
+	float: left;
+	line-height: 30px;
+	margin-right: 30px;
+}
+.addpublishreq form .item .w300{
+	width: 300px;
+}
+.addpublishreq form .item .w620{
+	width: 620px;
+}
+.addpublishreq form .item.item4{
+	margin-bottom: 15px;
+}
+.addpublishreq form .item textarea{
+	width: 620px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	height: 154px;
+	max-width: 620px;
+}
+.addpublishreq form .ischeck{
+	float: left;
+	width: 100%;
+	padding-left: 90px;
+}
+.addpublishreq form .item input[type="radio"],
+.addpublishreq form .ischeck input[type="checkbox"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin:8px 5px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.addpublishreq form .item input[type="radio"]:checked:after,
+.addpublishreq form .ischeck input[type="checkbox"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.addpublishreq form .ischeck span{
+	line-height: 30px;
+}
+.addpublishreq form .subbox{
+	float: left;
+	width: 100%;
+	padding: 30px 0 0 85px;
+}
+.addpublishreq form .subbox .allfixwindowschoose{
+	float: left;
+}
