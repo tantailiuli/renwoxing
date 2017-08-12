@@ -1,0 +1,693 @@
+/*form*/
+.fixformbox{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: none;
+}
+.fixformbox .shadow{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.6;
+	z-index: 1;
+}
+.fixformbox .form{
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	border-radius: 4px;
+	overflow:auto;
+}
+.fixformbox .form::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #f5f5f5;
+	padding: 0 2px;
+	border-radius: 10px;
+}
+.fixformbox .form::-webkit-scrollbar{
+	width: 10px;
+	background-color: #f9f9f9;
+}
+.fixformbox .form::-webkit-scrollbar-thumb{
+	width: 8px;
+	border-radius: 8px;
+	margin: 0 1px;
+	background-color: #22ac38;
+}
+.fixformbox .form form{
+	float: left;
+	width: 100%;
+}
+.fixformbox .form i.del{
+	position: absolute;
+    top: 21px;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    background: url(../images/icon/icon_req.png) no-repeat -39px -156px;
+}
+/*付款给服务商*/
+.fixformbox .form1{
+	width: 1076px;
+	top: 250px;
+	background-color: #fff;
+}
+.fixformbox .form1 form h3,
+.fixformbox .form5 form h3,
+.fixformbox .form6 form h3{
+	float: left;
+	width: 100%;
+	height: 65px;
+	line-height: 65px;
+	font-size: 26px;
+	padding-left: 36px;
+	background-color: #f1f1f1;
+}
+.fixformbox .form1 form .worn{
+	float: left;
+	width: 100%;
+	color: #f60;
+	font-size: 16px;
+	padding: 16px 90px;
+	line-height: 30px;
+	background-color: #fffdfb;
+	border-top: 1px solid #feca7a;
+	border-bottom: 1px solid #feca7a;
+}
+.fixformbox .form1 form .item1,
+.fixformbox .form1 form .item2,
+.fixformbox .form1 form .item3{
+	float: left;
+	width: 100%;
+	padding-left: 90px;
+}
+.fixformbox .form1 form .item1 span,
+.fixformbox .form1 form .item2 span,
+.fixformbox .form1 form .item3 span{
+	float: left;
+	font-size: 22px;
+	line-height: 40px;
+}
+.fixformbox .form1 form .item1{
+	margin: 21px 0 26px;
+}
+.fixformbox .form1 form .item1 span:last-child{
+	color: #ff1121;
+	font-size: 18px;
+	margin-left: 30px;
+}
+.fixformbox .form1 form .item1 input[type="text"]{
+	float: left;
+	padding: 0 10px;
+	height: 40px;
+	border: 1px solid #ddd;
+	line-height: 38px;
+	width: 230px;
+	font-size: 18px;
+	margin: 0 15px;
+}
+.fixformbox .form1 form .item2 span:nth-child(2),
+.fixformbox .form6 form .item3 span:nth-child(2){
+	color: #ff1121;
+}
+.fixformbox .form1 form .item2 a,
+.fixformbox .form6 form .item3 a{
+	float: left;
+	width: 170px;
+	margin-left: 20px;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.fixformbox .form1 form .item2 a.a1,
+.fixformbox .form6 form .item3 a.a1{
+	background-color: #22ac38;
+	color: #fff;
+}
+.fixformbox .form1 form .item2 a.a2,
+.fixformbox .form6 form .item3 a.a2{
+	background-color: #f1f1f1;
+	color: #333;
+}
+.fixformbox .form1 form .item3{
+	margin: 31px 0 21px;
+}
+.fixformbox .form1 form .item3 input[type="text"]{
+	float: left;
+	padding: 0 10px;
+	height: 40px;
+	border: 1px solid #ddd;
+	line-height: 38px;
+	width: 437px;
+	font-size: 18px;
+	margin: 0 15px;
+}
+.fixformbox .form1 form .subbox{
+	padding: 20px 22px;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+.fixformbox .form1 form .subbox input[type="submit"]{
+	float: right;
+	width: 140px;
+	height: 40px;
+	border: 0;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+/*增加赏金*/
+.fixformbox .form2{
+	width: 1076px;
+	top: 300px;
+	background-color: #fff;
+}
+.fixformbox .form2 form h3,
+.fixformbox .form4 form h3{
+	float: left;
+	width: 100%;
+	height: 65px;
+	line-height: 65px;
+	background-color: #f1f1f1;
+	padding-left: 36px;
+}
+.fixformbox .form2 form h3 span:first-child,
+.fixformbox .form4 form h3 span:first-child{
+	float: left;
+	font-size: 26px;
+}
+.fixformbox .form2 form h3 span:last-child,
+.fixformbox .form4 form h3 span:last-child{
+	float: left;
+	color: #ff1121;
+	margin:27px 0 0 25px;
+	font-size: 18px;
+	line-height: 18px;
+}
+.fixformbox .form2 form .item{
+	float: left;
+	width: 100%;
+	padding-left: 90px;
+}
+.fixformbox .form2 form .item span{
+	float: left;
+	font-size: 22px;
+	line-height: 40px;
+}
+.fixformbox .form2 form .item span.color{
+	color: #ff1121;
+	margin: 0 30px 0 18px;
+}
+.fixformbox .form2 form .item input[type="text"]{
+	float: left;
+	padding: 0 10px;
+	height: 40px;
+	border: 1px solid #ddd;
+	line-height: 38px;
+	width: 325px;
+	font-size: 18px;
+	margin: 0 14px 0 20px;
+}
+.fixformbox .form2 form .item span.choose span{
+	font-size: 18px;
+}
+.fixformbox .form2 form .item span.choose input[type="checkbox"]{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 13px 9px 0 0;
+	text-align:center;
+	-webkit-appearance:none;
+	outline:none;
+	line-height: 12px;
+	transition:all 0.1s;
+	color: #22ac38;
+	font-size: 12px;
+	border: 1px solid #22ac38;
+	cursor: pointer;
+}
+.fixformbox .form2 form .item span.choose input[type="checkbox"]:checked:after{
+	font-weight:bold;
+	content:"\2713";
+}
+.fixformbox .form2 form .item1{
+	margin-top: 20px;
+}
+.fixformbox .form2 form .item2{
+	margin: 29px 0;
+}
+.fixformbox .form2 form .subbox,
+.fixformbox .form4 form .subbox{
+	float: left;
+	width: 100%;
+	padding: 20px 18px;
+	border-top: 1px solid #ddd;
+}
+/*合同*/
+.fixformbox .form3{
+	width: 936px;
+	top: 200px;
+	background-color: #efffef;
+	margin-bottom: 100px;
+}
+.fixformbox .form3 form .status{
+	float: left;
+	width: 100%;
+	height: 103px;
+	padding: 50px 40px 0;
+	background-color: #fff;
+}
+.fixformbox .form3 form .status p{
+	float: left;
+	width: 100%;
+}
+.fixformbox .form3 form .status span{
+	float: left;
+	color: #22ac38;
+	font-size: 16px;
+	line-height: 17px;
+}
+.fixformbox .form3 form .status p i{
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-right: 8px;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon/icon_contract.png);
+	background-position: 0 0;
+}
+.fixformbox .form3 form .status p.takeeffect i{
+	background-position: -53px 0;
+}
+.fixformbox .form3 form .title,
+.fixformbox .form3 form .title .img,
+.fixformbox .form3 form .title p,
+.fixformbox .form3 form .title .addanddownload{
+	float: left;
+	width: 100%;
+}
+.fixformbox .form3 form .title .img{
+	padding: 40px 0 18px;
+}
+.fixformbox .form3 form .title .img img{
+	width: 192px;
+	height: 43px;
+	margin: 0 auto;
+	display: block;
+}
+.fixformbox .form3 form .title p{
+	text-align: center;
+	padding: 0 130px;
+	color: #6bbf6c;
+	font-size: 18px;
+}
+.fixformbox .form3 form .title .addanddownload{
+	padding: 18px 336px 30px;
+}
+.fixformbox .form3 form .title .addanddownload a{
+	background-color: #f60;
+	color: #fff;
+	width: 85px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+.fixformbox .form3 form .title .addanddownload a:hover{
+	background-color: #ff7920
+}
+.fixformbox .form3 form .title .addanddownload a:first-child{
+	float: left;
+}
+.fixformbox .form3 form .title .addanddownload a:last-child{
+	float: right;
+}
+.fixformbox .form3 form .content{
+	float: left;
+	width: 100%;
+	padding: 0 40px;
+}
+.fixformbox .form3 form .content .item{
+	float: left;
+	width: 100%;
+	border: 1px solid #bbecbb;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.fixformbox .form3 form .content .item h3{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 44px;
+	background-color: #d1f5d1;
+	padding:0 54px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	line-height: 44px;
+}
+.fixformbox .form3 form .content .item h3 i{
+	position: absolute;
+	top: 9px;
+	left: 17px;
+	width: 28px;
+	height: 28px;
+	background-repeat: no-repeat;
+	background-image: url(../images/icon/icon_contract.png);
+}
+.fixformbox .form3 form .content .item h3 i.i1{
+	background-position: 2px -36px;
+}
+.fixformbox .form3 form .content .item h3 i.i2{
+	background-position: -43px -34px;
+}
+.fixformbox .form3 form .content .item h3 i.i3{
+	background-position: 2px -80px;
+}
+.fixformbox .form3 form .content .item div{
+	background-color: #fff;
+	padding: 15px 54px;
+	float: left;
+	width: 100%;
+}
+.fixformbox .form3 form .content .item div p{
+	line-height: 26px;
+	margin: 3px 0;
+	color: #666;
+}
+.fixformbox .form3 form .content .item div p span.color{
+	color: #22ac38;
+}
+.fixformbox .form3 form .content .item div p span.fw{
+	font-weight: bold;
+	font-size: 16px;
+}
+.fixformbox .form3 form .content .item div p span.underline{
+	padding-bottom: 1px;
+	border-bottom: 1px solid #22ac38;
+	font-weight: bold;
+	margin: 0 4px;
+	color: #22ac38;
+}
+.fixformbox .form3 form .content .item1 div p span:nth-child(1){
+	margin-right: 24px;
+}
+.fixformbox .form3 form .content .item1 div p span:nth-child(2){
+	margin:0 24px;
+}
+.fixformbox .form3 form .content .item1 div p span:nth-child(3){
+	margin: 0 8px;
+	color: #333;
+}
+.fixformbox .form3 form .content .item2 div p span{
+	margin: 0 12px 0 10px;
+}
+.fixformbox .form3 form .autograph{
+	float: left;
+	width: 100%;
+	padding: 11px 40px 52px;
+}
+.fixformbox .form3 form .autograph div{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+.fixformbox .form3 form .autograph div p{
+	float: left;
+	width: 100%;
+	margin: 11px 0;
+	padding-left: 5px;
+	font-size: 16px;
+	line-height: 16px;
+}
+.fixformbox .form3 form .autograph div p span{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+}
+.fixformbox .form3 form .autograph div img{
+	position: absolute;
+	top: 33px;
+	left: 78px;
+	width: 165px;
+	height: 90px;
+}
+.fixformbox .form3 form .subbox{
+	margin-bottom: 52px;
+	height: 40px;
+	float: left;
+	width: 100%;
+}
+.fixformbox .form3 form .subbox input[type="submit"]{
+	width: 112px;
+	height: 40px;
+	background-color: #6bbf6c;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-size: 16px;
+	outline: none;
+	border: 0;
+}
+.fixformbox .form3 form .subbox input[type="submit"]:hover{
+	background-color: #22ac38;
+}
+/*补充合同*/
+.fixformbox .form4{
+	width: 1076px;
+	top: 300px;
+	background-color: #fff;
+}
+.fixformbox .form4 form .textbox{
+	float: left;
+	width: 100%;
+}
+.fixformbox .form4 form .textbox textarea{
+	width: 1016px;
+	height: 222px;
+	padding: 10px;
+	margin: 17px auto 30px;
+	max-width: 1016px;
+	border: 1px solid #ddd;
+	display: block;
+	font-size: 16px;
+}
+/*发起合同*/
+.fixformbox .form5{
+	width: 1076px;
+	top: 150px;
+	background-color:#fff;
+}
+.fixformbox .form5 form .item{
+	float: left;
+	width: 100%;
+	padding:0 20px;
+	margin: 15px 0;
+}
+.fixformbox .form5 form .item .signlabel{
+	float: left;
+	width: 205px;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: right;
+}
+.fixformbox .form5 form .item input[type="text"]:not(.form-control){
+	float: left;
+	width: 556px;
+	height: 40px;
+	line-height: 38px;
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	font-size: 16px;
+	margin-right: 16px;
+}
+.fixformbox .form5 form .calendar .inr{
+	float: left;
+	width: 256px;
+	height: 40px;
+}
+.fixformbox .form5 form .calendar .inr .form-group,
+.fixformbox .form5 form .calendar .inr .form-group .input-group{
+	margin: 0;
+	height: 100%;
+}
+.fixformbox .form5 form .calendar .inr .form-group .input-group input[type="text"]{
+	height: 40px;
+	font-size: 16px;
+}
+.fixformbox .form5 form .calendar .inr .form-group .input-group input[type="text"]:focus{
+	border-color: #22ac38;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(34, 172, 56, .6);
+}
+.fixformbox .form5 form .calendar .link{
+	float: left;
+	font-size: 22px;
+	margin: 0 10px;
+	line-height: 40px;
+}
+.fixformbox .form5 form .item textarea{
+	float: left;
+	width: 825px;
+	height: 160px;
+	max-width: 825px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 16px;
+}
+.fixformbox .form5 form .item1{
+	margin: 17px 0 15px;
+}
+.fixformbox .form5 form .item1 span:last-child{
+	float: left;
+	font-size: 22px;
+	line-height: 40px;
+}
+.fixformbox .form5 form .subbox{
+	margin-top: 15px;
+	padding: 20px 22px;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+/*申请退款*/
+.fixformbox .form6{
+	width: 1076px;
+	top: 150px;
+	background-color:#fff;
+}
+.fixformbox .form6 form .item{
+	float: left;
+	width: 100%;
+	padding: 0 20px 0 36px;
+	margin: 15px 0;
+}
+.fixformbox .form6 form .item .type{
+	float: left;
+	width: 364px;
+	position: relative;
+	margin-right: 15px;
+}
+.fixformbox .form6 form .item .type p{
+	position: relative;
+	border: 1px solid #ddd;
+	height: 40px;
+	padding: 0 10px;
+	line-height: 38px;
+	cursor: pointer;
+}
+.fixformbox .form6 form .item .type p span{
+	line-height: 38px;
+	font-size: 20px;
+	color: #666;
+}
+.fixformbox .form6 form .item .type p i{
+	position: absolute;
+	top: 17px;
+	right: 14px;
+	width: 0;
+	height: 0;
+	border-top: 6px solid #666;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.fixformbox .form6 form .item .type div{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0 1px 1px;
+	display: none;
+	max-height: 300px;
+	overflow:auto;
+	background-color: #fff;
+	z-index: 10;
+}
+.fixformbox .form6 form .item .type div span{
+	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #666;
+}
+.fixformbox .form6 form .item .type div span:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+.fixformbox .form6 form .item .signlabel,
+.fixformbox .form6 form .item span{
+	float: left;
+	font-size: 22px;
+	line-height: 40px;
+}
+.fixformbox .form6 form .item input[type="text"]{
+	float: left;
+	height: 40px;
+	border: 1px solid #ddd;
+	line-height: 40px;
+	padding: 0 10px;
+	font-size: 18px;
+}
+.fixformbox .form6 form .item2 .tip{
+	float: left;
+	width: 800px;
+}
+.fixformbox .form6 form .item2 .tip p{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	color: #ff1121;
+	margin-top: 10px;
+}
+.fixformbox .form6 form .item2 .tip input[type="text"]{
+	width: 364px;
+	margin-right: 15px;
+}
+.fixformbox .form6 form .item2{
+	margin: 15px 0 5px;
+}
+.fixformbox .form6 form .item4 input[type="text"]{
+	width: 386px;
+}
+.fixformbox .form6 form .item5 textarea{
+	width: 950px;
+	height: 220px;
+	max-width: 950px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+.fixformbox .form6 form .subbox{
+	padding: 20px 18px;
+	float: left;
+	width: 100%;
+	border-top: 1px solid #ddd;
+}

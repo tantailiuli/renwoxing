@@ -63,6 +63,10 @@ if (document.getElementById('typeselect3')){
 	var type3 = new SelectPullDown2('typeselect3');
 	type3.init();
 }
+if(document.getElementById('typeselect4')){
+	var type2 = new SelectPullDown2('typeselect4');
+	type2.init();
+}
 //
 $(".publishingservice .item .cover .up .upload .file").change(function(){
 	$(this).parent().prev().val($(this).val());

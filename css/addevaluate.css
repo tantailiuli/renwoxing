@@ -1,0 +1,55 @@
+.addevaluate form{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.addevaluate form .item{
+	float: left;
+	width: 100%;
+	line-height: 16px;
+	margin-bottom: 28px;
+}
+.addevaluate form .item .signlabel{
+	float: left;
+	width: 126px;
+	margin-right: 8px;
+	line-height: 16px;
+	text-align: right;
+}
+.addevaluate form .item p.starbox{
+	float: left;
+}
+.addevaluate form .item p.starbox i.star{
+	float: left;
+    width: 150px;
+    height: 20px;
+}
+.addevaluate form .item p.starbox i.star i{
+	float: left;
+	padding: 0 5px;
+    width: 30px;
+    height: 20px;
+    background-image: url(../images/icon/icon_provider03.png);
+    background-repeat: no-repeat;
+    background-position: -35px -299px;
+    cursor: pointer;
+}
+.addevaluate form .item p.starbox i.star i.i{
+	background-position: 5px -299px;
+}
+.addevaluate form .item textarea{
+	width: 620px;
+	height: 154px;
+	max-width: 620px;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.addevaluate form .subbox{
+	float: left;
+	width: 100%;
+	padding-left: 129px;
+}
+.addevaluate form .subbox .allfixwindowschoose{
+	float: left;
+}

@@ -1,0 +1,110 @@
+.nav_box .nav .sec_nav .down{
+	display: none;
+}
+.nav_box .nav .sec_nav:hover .down{
+	display: block;
+}
+/*cnt*/
+.workbench_box{
+	background-color: #fff;
+}
+.workbench .workhead{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 14px;
+	border: 1px solid #ccc;
+	margin: 10px 0 30px;
+}
+.workbench .workhead .img{
+	float: left;
+	width: 78px;
+	height: 78px;
+	margin-right: 18px;
+}
+.workbench .workhead .mid{
+	float: left;
+	width: 900px;
+}
+.workbench .workhead .mid p:first-child{
+	float: left;
+	width: 100%;
+	line-height: 25px;
+	font-size: 16px;
+}
+.workbench .workhead .mid p:first-child a{
+	color: #0b73bb;
+}
+.workbench .workhead .mid p:last-child{
+	float: left;
+	width: 100%;
+	margin-top: 19px;
+}
+.workbench .workhead .mid p:last-child span{
+	float: left;
+}
+.workbench .workhead .mid p:last-child span.span1{
+	height: 26px;
+	background-color: #22ac38;
+	color: #fff;
+	line-height: 26px;
+	padding: 0 5px;
+}
+.workbench .workhead .mid p:last-child span.span2{
+	width: 145px;
+	border: 1px solid #22ac38;
+	line-height: 24px;
+	color: #22ac38;
+	padding-left: 11px;
+}
+.workbench .workhead .mid p:last-child a.span3{
+	float: left;
+	background-color: #22ac38;
+	width: 96px;
+	height: 24px;
+	margin: 1px 0 1px 16px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+.workbench .workhead .right{
+	position: absolute;
+	top: 33px;
+	right: 25px;
+	width: 144px;
+	height: 40px;
+	background-color: #22ac38;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	border-radius: 7px;
+}
+.workbench .workbody{
+	float: left;
+	width: 100%;
+	border: 1px solid #ccc;
+	margin-bottom: 60px;
+}
+.workbench .workbody .tab{
+	float: left;
+	width: 100%;
+	height: 35px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ccc;
+}
+.workbench .workbody .tab a{
+	float: left;
+	width: 116px;
+	height: 35px;
+	line-height: 34px;
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	border-right: 1px solid #ccc;
+}
+.workbench .workbody .tab a.active{
+	background-color: #fff;
+	color: #22ac38;
+}

@@ -1,0 +1,85 @@
+.reqdescnt{
+	padding:30px 0 0;
+	float: left;
+	width: 100%;
+	min-height: 760px;
+}
+.reqdescnt .item{
+	float: left;
+	width: 100%;
+	font-size: 16px;
+}
+.reqdescnt .item .signlabel{
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 34px;
+}
+.reqdescnt .item span{
+	float: left;
+	line-height: 34px;
+}
+.reqdescnt .item .type{
+	float: left;
+	width: 150px;
+	margin: 2px 0;
+	position: relative;
+	margin-right: 15px;
+}
+.reqdescnt .item .type p{
+	position: relative;
+	border: 1px solid #ccc;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.reqdescnt .item .type p span{
+	line-height: 30px;
+}
+.reqdescnt .item .type p i{
+	position: absolute;
+	top: 12px;
+	right: 14px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid #666;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent
+}
+.reqdescnt .item .type div{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	right: 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0 1px 1px;
+	display: none;
+	max-height: 300px;
+	overflow:auto;
+	background-color: #fff;
+	z-index: 10;
+}
+.reqdescnt .item .type div span{
+	float: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.reqdescnt .item .type div span:hover{
+	background-color: #22ac38;
+	color: #fff;
+}
+.reqdescnt .item div.p{
+	float: left;
+	width: 1060px;
+}
+.reqdescnt .item div.p p{
+	float: left;
+	width: 100%;
+	line-height: 34px;
+}
